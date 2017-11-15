@@ -1,0 +1,732 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:RIAA-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Header_01x02 H11
+U 1 1 571FAC2E
+P 1500 2950
+F 0 "H11" H 1850 3500 60  0000 C CNN
+F 1 "Header_01x02" H 1450 3600 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 1500 2950 60  0001 C CNN
+F 3 "" H 1500 2950 60  0000 C CNN
+	1    1500 2950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CP_Small C11
+U 1 1 571FAC2F
+P 2500 2450
+F 0 "C11" V 2450 2250 50  0000 L CNN
+F 1 "10u" V 2600 2250 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D5_L11_P2.5" H 2500 2450 50  0001 C CNN
+F 3 "" H 2500 2450 50  0000 C CNN
+F 4 "UVR1V100MDD1TA" H 2500 2450 60  0001 C CNN "Mfg_Part_No"
+	1    2500 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 571FAC30
+P 1950 3150
+F 0 "#PWR01" H 1950 2900 50  0001 C CNN
+F 1 "GND" H 1950 3000 50  0000 C CNN
+F 2 "" H 1950 3150 50  0000 C CNN
+F 3 "" H 1950 3150 50  0000 C CNN
+	1    1950 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 2550 1950 2550
+Wire Wire Line
+	1950 2550 1950 3150
+Wire Wire Line
+	1850 2450 2400 2450
+$Comp
+L R_Small R11
+U 1 1 571FAC31
+P 2750 2150
+F 0 "R11" H 2780 2170 50  0000 L CNN
+F 1 "100" H 2780 2110 50  0000 L CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H 2750 2150 50  0001 C CNN
+F 3 "" H 2750 2150 50  0000 C CNN
+F 4 "CCF07100RJKE36" H 2750 2150 60  0001 C CNN "Mfg_Part_No"
+	1    2750 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R12
+U 1 1 571FAC32
+P 2750 2850
+F 0 "R12" H 2780 2870 50  0000 L CNN
+F 1 "47K" H 2780 2810 50  0000 L CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H 2750 2850 50  0001 C CNN
+F 3 "" H 2750 2850 50  0000 C CNN
+F 4 "CCF0747K0GKE36" H 2750 2850 60  0001 C CNN "Mfg_Part_No"
+	1    2750 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP_Small C12
+U 1 1 571FAC33
+P 2750 3400
+F 0 "C12" H 2760 3470 50  0000 L CNN
+F 1 "100u" H 2760 3320 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D5_L11_P2.5" H 2750 3400 50  0001 C CNN
+F 3 "" H 2750 3400 50  0000 C CNN
+F 4 "UVR1A101MDD" H 2750 3400 60  0001 C CNN "Mfg_Part_No"
+	1    2750 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L R_Small R13
+U 1 1 571FAC34
+P 2750 3900
+F 0 "R13" H 2780 3920 50  0000 L CNN
+F 1 "470" H 2780 3860 50  0000 L CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H 2750 3900 50  0001 C CNN
+F 3 "" H 2750 3900 50  0000 C CNN
+F 4 "CCF07470RGKE36CCF07470RGKE36CCF07470RGKE36" H 2750 3900 60  0001 C CNN "Mfg_Part_No"
+	1    2750 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L NE5532 U1
+U 1 1 571FAC35
+P 4300 2100
+F 0 "U1" H 4450 2250 50  0000 C CNN
+F 1 "NE5532" H 4550 1950 50  0000 C CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 4300 2100 50  0001 C CNN
+F 3 "" H 4300 2100 50  0000 C CNN
+F 4 "NE5532P" H 4300 2100 60  0001 C CNN "Mfg_Part_No"
+	1    4300 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Header_01x03 H1
+U 1 1 571FAC36
+P 8400 1650
+F 0 "H1" H 8650 2100 60  0000 C CNN
+F 1 "Header_01x03" H 8750 2000 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 8400 1650 60  0001 C CNN
+F 3 "" H 8400 1650 60  0000 C CNN
+	1    8400 1650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 2450 2750 2450
+Wire Wire Line
+	2750 2250 2750 2750
+Connection ~ 2750 2450
+Wire Wire Line
+	2750 2950 2750 3300
+Wire Wire Line
+	2750 3500 2750 3800
+Wire Wire Line
+	2750 3100 1950 3100
+Connection ~ 1950 3100
+Connection ~ 2750 3100
+$Comp
+L R_Small R14
+U 1 1 571FAC3F
+P 4050 2850
+F 0 "R14" V 3950 2800 50  0000 L CNN
+F 1 "10K" V 4150 2800 50  0000 L CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H 4050 2850 50  0001 C CNN
+F 3 "" H 4050 2850 50  0000 C CNN
+F 4 "CCF0710K0GKE36" H 4050 2850 60  0001 C CNN "Mfg_Part_No"
+	1    4050 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R17
+U 1 1 571FAC40
+P 5250 2850
+F 0 "R17" V 5150 2800 50  0000 L CNN
+F 1 "100K" V 5350 2750 50  0000 L CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H 5250 2850 50  0001 C CNN
+F 3 "" H 5250 2850 50  0000 C CNN
+F 4 "CCF07100KGKE36" H 5250 2850 60  0001 C CNN "Mfg_Part_No"
+	1    5250 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R15
+U 1 1 571FAC41
+P 4050 3350
+F 0 "R15" V 3950 3300 50  0000 L CNN
+F 1 "150" V 4150 3250 50  0000 L CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H 4050 3350 50  0001 C CNN
+F 3 "" H 4050 3350 50  0000 C CNN
+F 4 "CCF07150RGKE36" H 4050 3350 60  0001 C CNN "Mfg_Part_No"
+	1    4050 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C13
+U 1 1 571FAC42
+P 4500 3350
+F 0 "C13" V 4400 3200 50  0000 L CNN
+F 1 "8n2" V 4600 3350 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L7_W2.5_P5" H 4500 3350 50  0001 C CNN
+F 3 "" H 4500 3350 50  0000 C CNN
+F 4 "QYX2A822KTP" H 4500 3350 60  0001 C CNN "Mfg_Part_No"
+	1    4500 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C14
+U 1 1 571FAC43
+P 5250 3350
+F 0 "C14" V 5150 3200 50  0000 L CNN
+F 1 "22n" V 5350 3350 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L7_W2.5_P5" H 5250 3350 50  0001 C CNN
+F 3 "" H 5250 3350 50  0000 C CNN
+F 4 "QYX2A223KTP" H 5250 3350 60  0001 C CNN "Mfg_Part_No"
+	1    5250 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Header_01x03 H13
+U 1 1 571FAC44
+P 6750 3750
+F 0 "H13" H 7100 4300 60  0000 C CNN
+F 1 "Header_01x03" H 6700 4400 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 6750 3750 60  0001 C CNN
+F 3 "" H 6750 3750 60  0000 C CNN
+	1    6750 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 3350 6400 3350
+Wire Wire Line
+	5350 2850 5550 2850
+Wire Wire Line
+	5550 2850 5550 3350
+Connection ~ 5550 3350
+Wire Wire Line
+	4150 2850 5150 2850
+Wire Wire Line
+	4600 3350 5150 3350
+Wire Wire Line
+	4850 3350 4850 2850
+Connection ~ 4850 2850
+Connection ~ 4850 3350
+Wire Wire Line
+	4150 3350 4400 3350
+Wire Wire Line
+	3950 2850 3550 2850
+Wire Wire Line
+	3550 2200 3550 4050
+Wire Wire Line
+	3550 3350 3950 3350
+$Comp
+L R_Small R18
+U 1 1 571FAC45
+P 4250 4050
+F 0 "R18" V 4150 4000 50  0000 L CNN
+F 1 "1K" V 4350 3950 50  0000 L CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H 4250 4050 50  0001 C CNN
+F 3 "" H 4250 4050 50  0000 C CNN
+	1    4250 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2750 4000 2750 4050
+Wire Wire Line
+	2750 4050 4150 4050
+Wire Wire Line
+	4350 4050 5650 4050
+Wire Wire Line
+	5650 4050 5650 3450
+Wire Wire Line
+	5650 3450 6400 3450
+Wire Wire Line
+	8750 1150 9100 1150
+Wire Wire Line
+	8750 1350 9100 1350
+$Comp
+L +12VA #PWR02
+U 1 1 571FAC47
+P 8850 1150
+F 0 "#PWR02" H 8850 1000 50  0001 C CNN
+F 1 "+12VA" H 8850 1290 50  0000 C CNN
+F 2 "" H 8850 1150 50  0000 C CNN
+F 3 "" H 8850 1150 50  0000 C CNN
+	1    8850 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L -12VA #PWR03
+U 1 1 571FAC48
+P 8850 1350
+F 0 "#PWR03" H 8850 1200 50  0001 C CNN
+F 1 "-12VA" H 8850 1490 50  0000 C CNN
+F 2 "" H 8850 1350 50  0000 C CNN
+F 3 "" H 8850 1350 50  0000 C CNN
+	1    8850 1350
+	-1   0    0    1   
+$EndComp
+Text Label 9100 1150 0    60   ~ 0
+V+
+Text Label 9100 1350 0    60   ~ 0
+V-
+Wire Wire Line
+	4000 2200 3550 2200
+Connection ~ 3550 2850
+Wire Wire Line
+	2750 2050 2750 2000
+Wire Wire Line
+	2750 2000 4000 2000
+Wire Wire Line
+	4600 2100 6550 2100
+Wire Wire Line
+	6000 2100 6000 3250
+Wire Wire Line
+	6000 3250 6400 3250
+Text Label 4200 1650 0    60   ~ 0
+V+
+Text Label 4200 2550 0    60   ~ 0
+V-
+Wire Wire Line
+	4200 2550 4200 2400
+Wire Wire Line
+	4200 1650 4200 1800
+$Comp
+L CP_Small C15
+U 1 1 571FAC49
+P 6650 2100
+F 0 "C15" V 6800 2100 50  0000 L CNN
+F 1 "10u" V 6700 1900 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D5_L11_P2.5" H 6650 2100 50  0001 C CNN
+F 3 "" H 6650 2100 50  0000 C CNN
+F 4 "UVR1A101MDD" H 6650 2100 60  0001 C CNN "Mfg_Part_No"
+	1    6650 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_Small R19
+U 1 1 571FAC4A
+P 6950 2300
+F 0 "R19" V 6850 2250 50  0000 L CNN
+F 1 "47K" V 7050 2250 50  0000 L CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H 6950 2300 50  0001 C CNN
+F 3 "" H 6950 2300 50  0000 C CNN
+F 4 "CCF0747K0GKE36" H 6950 2300 60  0001 C CNN "Mfg_Part_No"
+	1    6950 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 571FAC4B
+P 7350 2300
+F 0 "#PWR04" H 7350 2050 50  0001 C CNN
+F 1 "GND" H 7350 2150 50  0000 C CNN
+F 2 "" H 7350 2300 50  0000 C CNN
+F 3 "" H 7350 2300 50  0000 C CNN
+	1    7350 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Header_01x02 H12
+U 1 1 571FAC4C
+P 8050 2600
+F 0 "H12" H 8400 3150 60  0000 C CNN
+F 1 "Header_01x02" H 8000 3250 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 8050 2600 60  0001 C CNN
+F 3 "" H 8050 2600 60  0000 C CNN
+	1    8050 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 2300 7600 2300
+Wire Wire Line
+	7700 2200 7600 2200
+Wire Wire Line
+	7600 2200 7600 2300
+Connection ~ 7350 2300
+Wire Wire Line
+	6850 2300 6450 2300
+Wire Wire Line
+	6450 2300 6450 2100
+Connection ~ 6000 2100
+Connection ~ 6450 2100
+Wire Wire Line
+	6750 2100 7700 2100
+$Comp
+L Header_01x02 H21
+U 1 1 571FB0EE
+P 1550 5700
+F 0 "H21" H 1900 6250 60  0000 C CNN
+F 1 "Header_01x02" H 1500 6350 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 1550 5700 60  0001 C CNN
+F 3 "" H 1550 5700 60  0000 C CNN
+	1    1550 5700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CP_Small C21
+U 1 1 571FB0F6
+P 2550 5200
+F 0 "C21" V 2500 5000 50  0000 L CNN
+F 1 "10u" V 2650 5000 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D5_L11_P2.5" H 2550 5200 50  0001 C CNN
+F 3 "" H 2550 5200 50  0000 C CNN
+F 4 "UVR1V100MDD1TA" H 2550 5200 60  0001 C CNN "Mfg_Part_No"
+	1    2550 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 571FB0FD
+P 2000 5900
+F 0 "#PWR05" H 2000 5650 50  0001 C CNN
+F 1 "GND" H 2000 5750 50  0000 C CNN
+F 2 "" H 2000 5900 50  0000 C CNN
+F 3 "" H 2000 5900 50  0000 C CNN
+	1    2000 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 5300 2000 5300
+Wire Wire Line
+	2000 5300 2000 5900
+Wire Wire Line
+	1900 5200 2450 5200
+$Comp
+L R_Small R21
+U 1 1 571FB107
+P 2800 4900
+F 0 "R21" H 2830 4920 50  0000 L CNN
+F 1 "100" H 2830 4860 50  0000 L CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H 2800 4900 50  0001 C CNN
+F 3 "" H 2800 4900 50  0000 C CNN
+F 4 "CCF07100RJKE36" H 2800 4900 60  0001 C CNN "Mfg_Part_No"
+	1    2800 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R22
+U 1 1 571FB10F
+P 2800 5600
+F 0 "R22" H 2830 5620 50  0000 L CNN
+F 1 "47K" H 2830 5560 50  0000 L CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H 2800 5600 50  0001 C CNN
+F 3 "" H 2800 5600 50  0000 C CNN
+F 4 "CCF0747K0GKE36" H 2800 5600 60  0001 C CNN "Mfg_Part_No"
+	1    2800 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP_Small C22
+U 1 1 571FB117
+P 2800 6150
+F 0 "C22" H 2810 6220 50  0000 L CNN
+F 1 "100u" H 2810 6070 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D5_L11_P2.5" H 2800 6150 50  0001 C CNN
+F 3 "" H 2800 6150 50  0000 C CNN
+F 4 "UVR1A101MDD" H 2800 6150 60  0001 C CNN "Mfg_Part_No"
+	1    2800 6150
+	-1   0    0    1   
+$EndComp
+$Comp
+L R_Small R23
+U 1 1 571FB11F
+P 2800 6650
+F 0 "R23" H 2830 6670 50  0000 L CNN
+F 1 "470" H 2830 6610 50  0000 L CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H 2800 6650 50  0001 C CNN
+F 3 "" H 2800 6650 50  0000 C CNN
+F 4 "CCF07470RGKE36CCF07470RGKE36CCF07470RGKE36" H 2800 6650 60  0001 C CNN "Mfg_Part_No"
+	1    2800 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L NE5532 U1
+U 2 1 571FB127
+P 4350 4850
+F 0 "U1" H 4500 5000 50  0000 C CNN
+F 1 "NE5532" H 4600 4700 50  0000 C CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 4350 4850 50  0001 C CNN
+F 3 "" H 4350 4850 50  0000 C CNN
+F 4 "NE5532P" H 4350 4850 60  0001 C CNN "Mfg_Part_No"
+	2    4350 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 5200 2800 5200
+Wire Wire Line
+	2800 5000 2800 5500
+Connection ~ 2800 5200
+Wire Wire Line
+	2800 5700 2800 6050
+Wire Wire Line
+	2800 6250 2800 6550
+Wire Wire Line
+	2800 5850 2000 5850
+Connection ~ 2000 5850
+Connection ~ 2800 5850
+$Comp
+L R_Small R24
+U 1 1 571FB137
+P 4100 5600
+F 0 "R24" V 4000 5550 50  0000 L CNN
+F 1 "10K" V 4200 5550 50  0000 L CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H 4100 5600 50  0001 C CNN
+F 3 "" H 4100 5600 50  0000 C CNN
+F 4 "CCF0710K0GKE36" H 4100 5600 60  0001 C CNN "Mfg_Part_No"
+	1    4100 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R27
+U 1 1 571FB13F
+P 5300 5600
+F 0 "R27" V 5200 5550 50  0000 L CNN
+F 1 "100K" V 5400 5500 50  0000 L CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H 5300 5600 50  0001 C CNN
+F 3 "" H 5300 5600 50  0000 C CNN
+F 4 "CCF07100KGKE36" H 5300 5600 60  0001 C CNN "Mfg_Part_No"
+	1    5300 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R25
+U 1 1 571FB147
+P 4100 6100
+F 0 "R25" V 4000 6050 50  0000 L CNN
+F 1 "150" V 4200 6000 50  0000 L CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H 4100 6100 50  0001 C CNN
+F 3 "" H 4100 6100 50  0000 C CNN
+F 4 "CCF07150RGKE36" H 4100 6100 60  0001 C CNN "Mfg_Part_No"
+	1    4100 6100
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C23
+U 1 1 571FB14F
+P 4550 6100
+F 0 "C23" V 4500 5950 50  0000 L CNN
+F 1 "8n2" V 4650 6100 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L7_W2.5_P5" H 4550 6100 50  0001 C CNN
+F 3 "" H 4550 6100 50  0000 C CNN
+F 4 "QYX2A822KTP" H 4550 6100 60  0001 C CNN "Mfg_Part_No"
+	1    4550 6100
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C24
+U 1 1 571FB157
+P 5300 6100
+F 0 "C24" V 5250 5950 50  0000 L CNN
+F 1 "22n" V 5400 6100 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L7_W2.5_P5" H 5300 6100 50  0001 C CNN
+F 3 "" H 5300 6100 50  0000 C CNN
+F 4 "QYX2A223KTP" H 5300 6100 60  0001 C CNN "Mfg_Part_No"
+	1    5300 6100
+	0    1    1    0   
+$EndComp
+$Comp
+L Header_01x03 H23
+U 1 1 571FB15E
+P 6800 6500
+F 0 "H23" H 7150 7050 60  0000 C CNN
+F 1 "Header_01x03" H 6750 7150 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 6800 6500 60  0001 C CNN
+F 3 "" H 6800 6500 60  0000 C CNN
+	1    6800 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 6100 6450 6100
+Wire Wire Line
+	5400 5600 5600 5600
+Wire Wire Line
+	5600 5600 5600 6100
+Connection ~ 5600 6100
+Wire Wire Line
+	4200 5600 5200 5600
+Wire Wire Line
+	4650 6100 5200 6100
+Wire Wire Line
+	4900 6100 4900 5600
+Connection ~ 4900 5600
+Connection ~ 4900 6100
+Wire Wire Line
+	4200 6100 4450 6100
+Wire Wire Line
+	4000 5600 3600 5600
+Wire Wire Line
+	3600 4950 3600 6800
+Wire Wire Line
+	3600 6100 4000 6100
+$Comp
+L R_Small R28
+U 1 1 571FB172
+P 4300 6800
+F 0 "R28" V 4200 6750 50  0000 L CNN
+F 1 "1K" V 4400 6700 50  0000 L CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H 4300 6800 50  0001 C CNN
+F 3 "" H 4300 6800 50  0000 C CNN
+	1    4300 6800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2800 6750 2800 6800
+Wire Wire Line
+	2800 6800 4200 6800
+Wire Wire Line
+	4400 6800 5700 6800
+Wire Wire Line
+	5700 6800 5700 6200
+Wire Wire Line
+	5700 6200 6450 6200
+Wire Wire Line
+	4050 4950 3600 4950
+Connection ~ 3600 5600
+Wire Wire Line
+	2800 4800 2800 4750
+Wire Wire Line
+	2800 4750 4050 4750
+Wire Wire Line
+	4650 4850 6600 4850
+Wire Wire Line
+	6050 4850 6050 6000
+Wire Wire Line
+	6050 6000 6450 6000
+Text Label 4250 4400 0    60   ~ 0
+V+
+Text Label 4250 5300 0    60   ~ 0
+V-
+Wire Wire Line
+	4250 5300 4250 5150
+Wire Wire Line
+	4250 4400 4250 4550
+$Comp
+L CP_Small C25
+U 1 1 571FB18A
+P 6700 4850
+F 0 "C25" V 6850 4850 50  0000 L CNN
+F 1 "10u" V 6750 4650 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D5_L11_P2.5" H 6700 4850 50  0001 C CNN
+F 3 "" H 6700 4850 50  0000 C CNN
+F 4 "UVR1A101MDD" H 6700 4850 60  0001 C CNN "Mfg_Part_No"
+	1    6700 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_Small R29
+U 1 1 571FB192
+P 7000 5050
+F 0 "R29" V 6900 5000 50  0000 L CNN
+F 1 "47K" V 7100 5000 50  0000 L CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H 7000 5050 50  0001 C CNN
+F 3 "" H 7000 5050 50  0000 C CNN
+F 4 "CCF0747K0GKE36" H 7000 5050 60  0001 C CNN "Mfg_Part_No"
+	1    7000 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 571FB199
+P 7400 5050
+F 0 "#PWR06" H 7400 4800 50  0001 C CNN
+F 1 "GND" H 7400 4900 50  0000 C CNN
+F 2 "" H 7400 5050 50  0000 C CNN
+F 3 "" H 7400 5050 50  0000 C CNN
+	1    7400 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Header_01x02 H22
+U 1 1 571FB19F
+P 8100 5350
+F 0 "H22" H 8450 5900 60  0000 C CNN
+F 1 "Header_01x02" H 8050 6000 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 8100 5350 60  0001 C CNN
+F 3 "" H 8100 5350 60  0000 C CNN
+	1    8100 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 5050 7650 5050
+Wire Wire Line
+	7750 4950 7650 4950
+Wire Wire Line
+	7650 4950 7650 5050
+Connection ~ 7400 5050
+Wire Wire Line
+	6900 5050 6500 5050
+Wire Wire Line
+	6500 5050 6500 4850
+Connection ~ 6050 4850
+Connection ~ 6500 4850
+Wire Wire Line
+	6800 4850 7750 4850
+$Comp
+L GND #PWR07
+U 1 1 5724D462
+P 9400 1250
+F 0 "#PWR07" H 9400 1000 50  0001 C CNN
+F 1 "GND" H 9400 1100 50  0000 C CNN
+F 2 "" H 9400 1250 50  0000 C CNN
+F 3 "" H 9400 1250 50  0000 C CNN
+	1    9400 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 1250 9400 1250
+Connection ~ 3550 4050
+Connection ~ 3550 3350
+Connection ~ 3600 6800
+Connection ~ 3600 6100
+Text Label 7250 2100 0    60   ~ 0
+OUT_L
+Text Label 1950 2450 0    60   ~ 0
+IN_L
+Text Label 2000 5200 0    60   ~ 0
+IN_R
+Text Label 7350 4850 0    60   ~ 0
+OUT_R
+$EndSCHEMATC
