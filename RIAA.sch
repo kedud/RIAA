@@ -34,26 +34,15 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "RIAA"
+Date "2017-11-17"
+Rev "A"
+Comp "D&D"
+Comment1 "RIAA /Line preamp for RM4 mixer."
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Header_01x02 H11
-U 1 1 571FAC2E
-P 1500 2950
-F 0 "H11" H 1850 3500 60  0000 C CNN
-F 1 "Header_01x02" H 1450 3600 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 1500 2950 60  0001 C CNN
-F 3 "" H 1500 2950 60  0000 C CNN
-	1    1500 2950
-	-1   0    0    -1  
-$EndComp
 $Comp
 L CP_Small C11
 U 1 1 571FAC2F
@@ -80,7 +69,9 @@ $EndComp
 Wire Wire Line
 	1850 2550 1950 2550
 Wire Wire Line
-	1950 2550 1950 3150
+	1950 2550 1950 3100
+Wire Wire Line
+	1950 3100 1950 3150
 Wire Wire Line
 	1850 2450 2400 2450
 $Comp
@@ -143,24 +134,17 @@ F 4 "NE5532P" H 4300 2100 60  0001 C CNN "Mfg_Part_No"
 	1    4300 2100
 	1    0    0    -1  
 $EndComp
-$Comp
-L Header_01x03 H1
-U 1 1 571FAC36
-P 8400 1650
-F 0 "H1" H 8650 2100 60  0000 C CNN
-F 1 "Header_01x03" H 8750 2000 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 8400 1650 60  0001 C CNN
-F 3 "" H 8400 1650 60  0000 C CNN
-	1    8400 1650
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	2600 2450 2750 2450
 Wire Wire Line
-	2750 2250 2750 2750
+	2750 2250 2750 2450
+Wire Wire Line
+	2750 2450 2750 2750
 Connection ~ 2750 2450
 Wire Wire Line
-	2750 2950 2750 3300
+	2750 2950 2750 3100
+Wire Wire Line
+	2750 3100 2750 3300
 Wire Wire Line
 	2750 3500 2750 3800
 Wire Wire Line
@@ -227,28 +211,23 @@ F 4 "QYX2A223KTP" H 5250 3350 60  0001 C CNN "Mfg_Part_No"
 	1    5250 3350
 	0    1    1    0   
 $EndComp
-$Comp
-L Header_01x03 H13
-U 1 1 571FAC44
-P 6750 3750
-F 0 "H13" H 7100 4300 60  0000 C CNN
-F 1 "Header_01x03" H 6700 4400 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 6750 3750 60  0001 C CNN
-F 3 "" H 6750 3750 60  0000 C CNN
-	1    6750 3750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	5350 3350 6400 3350
+	5350 3350 5550 3350
+Wire Wire Line
+	5550 3350 6400 3350
 Wire Wire Line
 	5350 2850 5550 2850
 Wire Wire Line
 	5550 2850 5550 3350
 Connection ~ 5550 3350
 Wire Wire Line
-	4150 2850 5150 2850
+	4150 2850 4850 2850
 Wire Wire Line
-	4600 3350 5150 3350
+	4850 2850 5150 2850
+Wire Wire Line
+	4600 3350 4850 3350
+Wire Wire Line
+	4850 3350 5150 3350
 Wire Wire Line
 	4850 3350 4850 2850
 Connection ~ 4850 2850
@@ -258,7 +237,11 @@ Wire Wire Line
 Wire Wire Line
 	3950 2850 3550 2850
 Wire Wire Line
-	3550 2200 3550 4050
+	3550 2200 3550 2850
+Wire Wire Line
+	3550 2850 3550 3350
+Wire Wire Line
+	3550 3350 3550 4050
 Wire Wire Line
 	3550 3350 3950 3350
 $Comp
@@ -275,7 +258,9 @@ $EndComp
 Wire Wire Line
 	2750 4000 2750 4050
 Wire Wire Line
-	2750 4050 4150 4050
+	2750 4050 3550 4050
+Wire Wire Line
+	3550 4050 4150 4050
 Wire Wire Line
 	4350 4050 5650 4050
 Wire Wire Line
@@ -283,31 +268,13 @@ Wire Wire Line
 Wire Wire Line
 	5650 3450 6400 3450
 Wire Wire Line
-	8750 1150 9100 1150
+	8650 1150 8850 1150
 Wire Wire Line
-	8750 1350 9100 1350
-$Comp
-L +12VA #PWR02
-U 1 1 571FAC47
-P 8850 1150
-F 0 "#PWR02" H 8850 1000 50  0001 C CNN
-F 1 "+12VA" H 8850 1290 50  0000 C CNN
-F 2 "" H 8850 1150 50  0000 C CNN
-F 3 "" H 8850 1150 50  0000 C CNN
-	1    8850 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L -12VA #PWR03
-U 1 1 571FAC48
-P 8850 1350
-F 0 "#PWR03" H 8850 1200 50  0001 C CNN
-F 1 "-12VA" H 8850 1490 50  0000 C CNN
-F 2 "" H 8850 1350 50  0000 C CNN
-F 3 "" H 8850 1350 50  0000 C CNN
-	1    8850 1350
-	-1   0    0    1   
-$EndComp
+	8850 1150 9100 1150
+Wire Wire Line
+	8650 1350 8850 1350
+Wire Wire Line
+	8850 1350 9100 1350
 Text Label 9100 1150 0    60   ~ 0
 V+
 Text Label 9100 1350 0    60   ~ 0
@@ -320,7 +287,11 @@ Wire Wire Line
 Wire Wire Line
 	2750 2000 4000 2000
 Wire Wire Line
-	4600 2100 6550 2100
+	4600 2100 6000 2100
+Wire Wire Line
+	6000 2100 6450 2100
+Wire Wire Line
+	6450 2100 6550 2100
 Wire Wire Line
 	6000 2100 6000 3250
 Wire Wire Line
@@ -368,19 +339,10 @@ F 3 "" H 7350 2300 50  0000 C CNN
 	1    7350 2300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Header_01x02 H12
-U 1 1 571FAC4C
-P 8050 2600
-F 0 "H12" H 8400 3150 60  0000 C CNN
-F 1 "Header_01x02" H 8000 3250 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 8050 2600 60  0001 C CNN
-F 3 "" H 8050 2600 60  0000 C CNN
-	1    8050 2600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	7050 2300 7600 2300
+	7050 2300 7350 2300
+Wire Wire Line
+	7350 2300 7600 2300
 Wire Wire Line
 	7700 2200 7600 2200
 Wire Wire Line
@@ -431,7 +393,9 @@ $EndComp
 Wire Wire Line
 	1900 5300 2000 5300
 Wire Wire Line
-	2000 5300 2000 5900
+	2000 5300 2000 5850
+Wire Wire Line
+	2000 5850 2000 5900
 Wire Wire Line
 	1900 5200 2450 5200
 $Comp
@@ -497,10 +461,14 @@ $EndComp
 Wire Wire Line
 	2650 5200 2800 5200
 Wire Wire Line
-	2800 5000 2800 5500
+	2800 5000 2800 5200
+Wire Wire Line
+	2800 5200 2800 5500
 Connection ~ 2800 5200
 Wire Wire Line
-	2800 5700 2800 6050
+	2800 5700 2800 5850
+Wire Wire Line
+	2800 5850 2800 6050
 Wire Wire Line
 	2800 6250 2800 6550
 Wire Wire Line
@@ -567,28 +535,23 @@ F 4 "QYX2A223KTP" H 5300 6100 60  0001 C CNN "Mfg_Part_No"
 	1    5300 6100
 	0    1    1    0   
 $EndComp
-$Comp
-L Header_01x03 H23
-U 1 1 571FB15E
-P 6800 6500
-F 0 "H23" H 7150 7050 60  0000 C CNN
-F 1 "Header_01x03" H 6750 7150 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 6800 6500 60  0001 C CNN
-F 3 "" H 6800 6500 60  0000 C CNN
-	1    6800 6500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	5400 6100 6450 6100
+	5400 6100 5600 6100
+Wire Wire Line
+	5600 6100 6450 6100
 Wire Wire Line
 	5400 5600 5600 5600
 Wire Wire Line
 	5600 5600 5600 6100
 Connection ~ 5600 6100
 Wire Wire Line
-	4200 5600 5200 5600
+	4200 5600 4900 5600
 Wire Wire Line
-	4650 6100 5200 6100
+	4900 5600 5200 5600
+Wire Wire Line
+	4650 6100 4900 6100
+Wire Wire Line
+	4900 6100 5200 6100
 Wire Wire Line
 	4900 6100 4900 5600
 Connection ~ 4900 5600
@@ -598,7 +561,11 @@ Wire Wire Line
 Wire Wire Line
 	4000 5600 3600 5600
 Wire Wire Line
-	3600 4950 3600 6800
+	3600 4950 3600 5600
+Wire Wire Line
+	3600 5600 3600 6100
+Wire Wire Line
+	3600 6100 3600 6800
 Wire Wire Line
 	3600 6100 4000 6100
 $Comp
@@ -615,7 +582,9 @@ $EndComp
 Wire Wire Line
 	2800 6750 2800 6800
 Wire Wire Line
-	2800 6800 4200 6800
+	2800 6800 3600 6800
+Wire Wire Line
+	3600 6800 4200 6800
 Wire Wire Line
 	4400 6800 5700 6800
 Wire Wire Line
@@ -630,7 +599,11 @@ Wire Wire Line
 Wire Wire Line
 	2800 4750 4050 4750
 Wire Wire Line
-	4650 4850 6600 4850
+	4650 4850 6050 4850
+Wire Wire Line
+	6050 4850 6500 4850
+Wire Wire Line
+	6500 4850 6600 4850
 Wire Wire Line
 	6050 4850 6050 6000
 Wire Wire Line
@@ -690,7 +663,9 @@ F 3 "" H 8100 5350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7100 5050 7650 5050
+	7100 5050 7400 5050
+Wire Wire Line
+	7400 5050 7650 5050
 Wire Wire Line
 	7750 4950 7650 4950
 Wire Wire Line
@@ -716,7 +691,7 @@ F 3 "" H 9400 1250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8750 1250 9400 1250
+	8650 1250 9400 1250
 Connection ~ 3550 4050
 Connection ~ 3550 3350
 Connection ~ 3600 6800
@@ -729,4 +704,106 @@ Text Label 2000 5200 0    60   ~ 0
 IN_R
 Text Label 7350 4850 0    60   ~ 0
 OUT_R
+$Comp
+L Conn_01x02 H11
+U 1 1 5A0F19A2
+P 1650 2450
+F 0 "H11" H 1650 2550 50  0000 C CNN
+F 1 "Conn_01x02" H 1650 2250 50  0000 C CNN
+F 2 "" H 1650 2450 50  0001 C CNN
+F 3 "" H 1650 2450 50  0001 C CNN
+F 4 "Mouser" H 1650 2450 60  0001 C CNN "Distributor"
+F 5 "2-THT" H 1650 2450 60  0001 C CNN "Package"
+F 6 "Embases et logements de câbles WR-PHD 2.54mm Hdr 2P Single RA Gold" H 1650 2450 60  0001 C CNN "Description"
+	1    1650 2450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03_Male H13
+U 1 1 5A0F258B
+P 6600 3350
+F 0 "H13" H 6600 3550 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 6600 3150 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight" H 6600 3350 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/276/0022272031_PCB_HEADERS-227496.pdf" H 6600 3350 50  0001 C CNN
+F 4 "22-27-2031" H 6600 3350 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 6600 3350 60  0001 C CNN "Distributor"
+F 6 "538-22-27-2031" H 6600 3350 60  0001 C CNN "Distributor Part #"
+F 7 "3-THT" H 6600 3350 60  0001 C CNN "Package"
+F 8 "Embases et logements de câbles 3C STR HEADER W/FRLK" H 6600 3350 60  0001 C CNN "Description"
+F 9 "Molex" H 6600 3350 60  0001 C CNN "Manufacturer"
+	1    6600 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Conn_01x02 H12
+U 1 1 5A0F2994
+P 7900 2100
+F 0 "H12" H 7900 2200 50  0000 C CNN
+F 1 "Conn_01x02" H 7900 1900 50  0000 C CNN
+F 2 "" H 7900 2100 50  0001 C CNN
+F 3 "" H 7900 2100 50  0001 C CNN
+	1    7900 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03 H1
+U 1 1 5A0F2CB4
+P 8450 1250
+F 0 "H1" H 8450 1450 50  0000 C CNN
+F 1 "Conn_01x03" H 8450 1050 50  0000 C CNN
+F 2 "" H 8450 1250 50  0001 C CNN
+F 3 "" H 8450 1250 50  0001 C CNN
+	1    8450 1250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03_Male H23
+U 1 1 5A0F37D2
+P 6650 6100
+F 0 "H23" H 6650 6300 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 6650 5900 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight" H 6650 6100 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/276/0022272031_PCB_HEADERS-227496.pdf" H 6650 6100 50  0001 C CNN
+F 4 "22-27-2031" H 6650 6100 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 6650 6100 60  0001 C CNN "Distributor"
+F 6 "538-22-27-2031" H 6650 6100 60  0001 C CNN "Distributor Part #"
+F 7 "3-THT" H 6650 6100 60  0001 C CNN "Package"
+F 8 "Embases et logements de câbles 3C STR HEADER W/FRLK" H 6650 6100 60  0001 C CNN "Description"
+F 9 "Molex" H 6650 6100 60  0001 C CNN "Manufacturer"
+	1    6650 6100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03_Female J23
+U 1 1 5A0F3A3C
+P 7550 6100
+F 0 "J23" H 7550 6300 50  0000 C CNN
+F 1 "Conn_01x03_Female" H 7550 5900 50  0000 C CNN
+F 2 "" H 7550 6100 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/276/0022013037_CRIMP_HOUSINGS-158306.pdf" H 7550 6100 50  0001 C CNN
+F 4 "22-01-3037" H 7550 6100 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 7550 6100 60  0001 C CNN "Distributor"
+F 6 "538-22-01-3037" H 7550 6100 60  0001 C CNN "Distributor Part #"
+F 7 "Embases et logements de câbles HSG 3P W/RAMP/RIBS" H 7550 6100 60  0001 C CNN "Description"
+F 8 "Molex" H 7550 6100 60  0001 C CNN "Manufacturer"
+	1    7550 6100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03_Female J13
+U 1 1 5A0F3E8C
+P 7550 3350
+F 0 "J13" H 7550 3550 50  0000 C CNN
+F 1 "Conn_01x03_Female" H 7550 3150 50  0000 C CNN
+F 2 "" H 7550 3350 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/276/0022013037_CRIMP_HOUSINGS-158306.pdf" H 7550 3350 50  0001 C CNN
+F 4 "22-01-3037" H 7550 3350 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 7550 3350 60  0001 C CNN "Distributor"
+F 6 "538-22-01-3037" H 7550 3350 60  0001 C CNN "Distributor Part #"
+F 7 "Embases et logements de câbles HSG 3P W/RAMP/RIBS" H 7550 3350 60  0001 C CNN "Description"
+F 8 "Molex" H 7550 3350 60  0001 C CNN "Manufacturer"
+	1    7550 3350
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
