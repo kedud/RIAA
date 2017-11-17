@@ -1,4 +1,4 @@
-update=Dimanche 01 octobre 2017 17:42:51
+update=Vendredi 17 novembre 2017 'à' 18:01:46
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,4 +58,3 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=/Users/Vincent/KiCadProjects/Rotary_table/Main_board/main_board/libraries/riaa
