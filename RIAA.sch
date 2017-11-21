@@ -129,8 +129,13 @@ P 4300 2100
 F 0 "U1" H 4450 2250 50  0000 C CNN
 F 1 "NE5532" H 4550 1950 50  0000 C CNN
 F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 4300 2100 50  0001 C CNN
-F 3 "" H 4300 2100 50  0000 C CNN
+F 3 "http://www.ti.com/lit/gpn/ne5532" H 4300 2100 50  0001 C CNN
 F 4 "NE5532P" H 4300 2100 60  0001 C CNN "Mfg_Part_No"
+F 5 "Operational Amplifiers - Op Amps Dual Low Noise" H 4300 2100 60  0001 C CNN "Description"
+F 6 "Texas Instruments" H 4300 2100 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 4300 2100 60  0001 C CNN "Distributor"
+F 8 "595-NE5532P" H 4300 2100 60  0001 C CNN "Distributor Part #"
+F 9 "8-PDIP" H 4300 2100 60  0001 C CNN "Package"
 	1    4300 2100
 	1    0    0    -1  
 $EndComp
@@ -444,18 +449,6 @@ F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H 2800 6650 50  0001 C CN
 F 3 "" H 2800 6650 50  0000 C CNN
 F 4 "CCF07470RGKE36CCF07470RGKE36CCF07470RGKE36" H 2800 6650 60  0001 C CNN "Mfg_Part_No"
 	1    2800 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L NE5532 U1
-U 2 1 571FB127
-P 4350 4850
-F 0 "U1" H 4500 5000 50  0000 C CNN
-F 1 "NE5532" H 4600 4700 50  0000 C CNN
-F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 4350 4850 50  0001 C CNN
-F 3 "" H 4350 4850 50  0000 C CNN
-F 4 "NE5532P" H 4350 4850 60  0001 C CNN "Mfg_Part_No"
-	2    4350 4850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -805,5 +798,22 @@ F 7 "Embases et logements de câbles HSG 3P W/RAMP/RIBS" H 7550 3350 60  0001 C 
 F 8 "Molex" H 7550 3350 60  0001 C CNN "Manufacturer"
 	1    7550 3350
 	-1   0    0    -1  
+$EndComp
+$Comp
+L NE5532 U1
+U 2 1 5A14798A
+P 4350 4850
+F 0 "U1" H 4500 5000 50  0000 C CNN
+F 1 "NE5532" H 4600 4700 50  0000 C CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 4350 4850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/ne5532" H 4350 4850 50  0001 C CNN
+F 4 "NE5532P" H 4350 4850 60  0001 C CNN "Mfg_Part_No"
+F 5 "Operational Amplifiers - Op Amps Dual Low Noise" H 4350 4850 60  0001 C CNN "Description"
+F 6 "Texas Instruments" H 4350 4850 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 4350 4850 60  0001 C CNN "Distributor"
+F 8 "595-NE5532P" H 4350 4850 60  0001 C CNN "Distributor Part #"
+F 9 "8-PDIP" H 4350 4850 60  0001 C CNN "Package"
+	2    4350 4850
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
