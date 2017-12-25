@@ -47,791 +47,969 @@ $EndDescr
 $Comp
 L CP_Small C11
 U 1 1 571FAC2F
-P 2500 2450
-F 0 "C11" V 2450 2250 50  0000 L CNN
-F 1 "10u" V 2600 2250 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D5_L11_P2.5" H 2500 2450 50  0001 C CNN
-F 3 "" H 2500 2450 50  0000 C CNN
-F 4 "UVR1V100MDD1TA" H 2500 2450 60  0001 C CNN "Mfg_Part_No"
-	1    2500 2450
+P 2350 1850
+F 0 "C11" V 2300 1650 50  0000 L CNN
+F 1 "10u" V 2450 1650 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D5_L11_P2.5" H 2350 1850 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/293/e-uvr-1219439.pdf" H 2350 1850 50  0001 C CNN
+F 4 "UVR1V100MDD1TA" H 2350 1850 60  0001 C CNN "Mfg_Part_No"
+F 5 "Aluminium Electrolytic Capacitors - Leaded 35volts 10uF" H 2350 1850 60  0001 C CNN "Description"
+F 6 "Nichicon" H 2350 1850 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 2350 1850 60  0001 C CNN "Distributor"
+F 8 "647-UVR1V100MDD1TA" H 2350 1850 60  0001 C CNN "Distributor Part #"
+F 9 "2-THT" H 2350 1850 60  0001 C CNN "Package"
+	1    2350 1850
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR101
+L GND #PWR01
 U 1 1 571FAC30
-P 1950 3150
-F 0 "#PWR101" H 1950 2900 50  0001 C CNN
-F 1 "GND" H 1950 3000 50  0000 C CNN
-F 2 "" H 1950 3150 50  0000 C CNN
-F 3 "" H 1950 3150 50  0000 C CNN
-	1    1950 3150
+P 1800 2550
+F 0 "#PWR01" H 1800 2300 50  0001 C CNN
+F 1 "GND" H 1800 2400 50  0000 C CNN
+F 2 "" H 1800 2550 50  0000 C CNN
+F 3 "" H 1800 2550 50  0000 C CNN
+	1    1800 2550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1850 2550 1950 2550
+	1700 1950 1800 1950
 Wire Wire Line
-	1950 2550 1950 3150
+	1800 1950 1800 2550
 Wire Wire Line
-	1850 2450 2400 2450
+	1700 1850 2250 1850
 $Comp
 L R_Small R11
 U 1 1 571FAC31
-P 2750 2150
-F 0 "R11" H 2780 2170 50  0000 L CNN
-F 1 "100" H 2780 2110 50  0000 L CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H 2750 2150 50  0001 C CNN
-F 3 "" H 2750 2150 50  0000 C CNN
-F 4 "CCF07100RJKE36" H 2750 2150 60  0001 C CNN "Mfg_Part_No"
-	1    2750 2150
+P 2600 1550
+F 0 "R11" H 2630 1570 50  0000 L CNN
+F 1 "100" H 2630 1510 50  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 2600 1550 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/ccf50-239758.pdf" H 2600 1550 50  0001 C CNN
+F 4 "CCF50100RFKR36" H 2600 1550 60  0001 C CNN "Mfg_Part_No"
+F 5 "Metal Film Resistors - Through Hole 1/3watts 100ohms 1%" H 2600 1550 60  0001 C CNN "Description"
+F 6 "Vishay / Dale" H 2600 1550 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 2600 1550 60  0001 C CNN "Distributor"
+F 8 "71-CCF50-100" H 2600 1550 60  0001 C CNN "Distributor Part #"
+F 9 "DIN0204" H 2600 1550 60  0001 C CNN "Package"
+	1    2600 1550
 	1    0    0    -1  
 $EndComp
 $Comp
 L R_Small R12
 U 1 1 571FAC32
-P 2750 2850
-F 0 "R12" H 2780 2870 50  0000 L CNN
-F 1 "47K" H 2780 2810 50  0000 L CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H 2750 2850 50  0001 C CNN
-F 3 "" H 2750 2850 50  0000 C CNN
-F 4 "CCF0747K0GKE36" H 2750 2850 60  0001 C CNN "Mfg_Part_No"
-	1    2750 2850
+P 2600 2250
+F 0 "R12" H 2630 2270 50  0000 L CNN
+F 1 "47K" H 2630 2210 50  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 2600 2250 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/sfr16s25-239894.pdf" H 2600 2250 50  0001 C CNN
+F 4 "SFR16S0004702JA500" H 2600 2250 60  0001 C CNN "Mfg_Part_No"
+F 5 "Metal Film Resistors - Through Hole 1/2watt 47Kohms 5%" H 2600 2250 60  0001 C CNN "Description"
+F 6 "Vichay / BC Components" H 2600 2250 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 2600 2250 60  0001 C CNN "Distributor"
+F 8 "594-SFR16S0004702JA5" H 2600 2250 60  0001 C CNN "Distributor Part #"
+F 9 "2-THT" H 2600 2250 60  0001 C CNN "Package"
+	1    2600 2250
 	1    0    0    -1  
 $EndComp
 $Comp
 L CP_Small C12
 U 1 1 571FAC33
-P 2750 3400
-F 0 "C12" H 2760 3470 50  0000 L CNN
-F 1 "100u" H 2760 3320 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D5_L11_P2.5" H 2750 3400 50  0001 C CNN
-F 3 "" H 2750 3400 50  0000 C CNN
-F 4 "UVR1A101MDD" H 2750 3400 60  0001 C CNN "Mfg_Part_No"
-	1    2750 3400
+P 2600 2800
+F 0 "C12" H 2610 2870 50  0000 L CNN
+F 1 "100u" H 2610 2720 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D5_L11_P2.5" H 2600 2800 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/293/e-uvr-1219439.pdf" H 2600 2800 50  0001 C CNN
+F 4 "UVR1A101MDD" H 2600 2800 60  0001 C CNN "Mfg_Part_No"
+F 5 "Aluminium Electrolytic Capacitors - Leaded 10volts 100uF 5x11 20% 2LS" H 2600 2800 60  0001 C CNN "Description"
+F 6 "Nichicon" H 2600 2800 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 2600 2800 60  0001 C CNN "Distributor"
+F 8 "647-UVR1A101MDD" H 2600 2800 60  0001 C CNN "Distributor Part #"
+F 9 "2-THT" H 2600 2800 60  0001 C CNN "Package"
+	1    2600 2800
 	-1   0    0    1   
 $EndComp
 $Comp
 L R_Small R13
 U 1 1 571FAC34
-P 2750 3900
-F 0 "R13" H 2780 3920 50  0000 L CNN
-F 1 "470" H 2780 3860 50  0000 L CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H 2750 3900 50  0001 C CNN
-F 3 "" H 2750 3900 50  0000 C CNN
-F 4 "CCF07470RGKE36CCF07470RGKE36CCF07470RGKE36" H 2750 3900 60  0001 C CNN "Mfg_Part_No"
-	1    2750 3900
+P 2600 3300
+F 0 "R13" H 2630 3320 50  0000 L CNN
+F 1 "470" H 2630 3260 50  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 2600 3300 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/sfr16s25-239894.pdf" H 2600 3300 50  0001 C CNN
+F 4 "SFR16S0004700JA500" H 2600 3300 60  0001 C CNN "Mfg_Part_No"
+F 5 "Metal Film Resistors - Through Hole 1/2watt 470ohms 5%" H 2600 3300 60  0001 C CNN "Description"
+F 6 "Vishay / BC Components" H 2600 3300 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 2600 3300 60  0001 C CNN "Distributor"
+F 8 "594-SFR16S0004700JA5" H 2600 3300 60  0001 C CNN "Distributor Part #"
+F 9 "2-THT" H 2600 3300 60  0001 C CNN "Package"
+	1    2600 3300
 	1    0    0    -1  
 $EndComp
 $Comp
 L NE5532 U1
 U 1 1 571FAC35
-P 4300 2100
-F 0 "U1" H 4450 2250 50  0000 C CNN
-F 1 "NE5532" H 4550 1950 50  0000 C CNN
-F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 4300 2100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/ne5532" H 4300 2100 50  0001 C CNN
-F 4 "NE5532P" H 4300 2100 60  0001 C CNN "Mfg_Part_No"
-F 5 "Operational Amplifiers - Op Amps Dual Low Noise" H 4300 2100 60  0001 C CNN "Description"
-F 6 "Texas Instruments" H 4300 2100 60  0001 C CNN "Manufacturer"
-F 7 "Mouser" H 4300 2100 60  0001 C CNN "Distributor"
-F 8 "595-NE5532P" H 4300 2100 60  0001 C CNN "Distributor Part #"
-F 9 "8-PDIP" H 4300 2100 60  0001 C CNN "Package"
-	1    4300 2100
+P 4150 1500
+F 0 "U1" H 4300 1650 50  0000 C CNN
+F 1 "NE5532" H 4400 1350 50  0000 C CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 4150 1500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/ne5532" H 4150 1500 50  0001 C CNN
+F 4 "NE5532P" H 4150 1500 60  0001 C CNN "Mfg_Part_No"
+F 5 "Operational Amplifiers - Op Amps Dual Low Noise" H 4150 1500 60  0001 C CNN "Description"
+F 6 "Texas Instruments" H 4150 1500 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 4150 1500 60  0001 C CNN "Distributor"
+F 8 "595-NE5532P" H 4150 1500 60  0001 C CNN "Distributor Part #"
+F 9 "8-PDIP" H 4150 1500 60  0001 C CNN "Package"
+	1    4150 1500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2600 2450 2750 2450
+	2450 1850 2600 1850
 Wire Wire Line
-	2750 2250 2750 2750
-Connection ~ 2750 2450
+	2600 1650 2600 2150
+Connection ~ 2600 1850
 Wire Wire Line
-	2750 2950 2750 3300
+	2600 2350 2600 2700
 Wire Wire Line
-	2750 3500 2750 3800
+	2600 2900 2600 3200
 Wire Wire Line
-	2750 3100 1950 3100
-Connection ~ 1950 3100
-Connection ~ 2750 3100
-$Comp
-L R_Small R14
-U 1 1 571FAC3F
-P 4050 2850
-F 0 "R14" V 3950 2800 50  0000 L CNN
-F 1 "10K" V 4150 2800 50  0000 L CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H 4050 2850 50  0001 C CNN
-F 3 "" H 4050 2850 50  0000 C CNN
-F 4 "CCF0710K0GKE36" H 4050 2850 60  0001 C CNN "Mfg_Part_No"
-	1    4050 2850
-	0    1    1    0   
-$EndComp
+	2600 2500 1800 2500
+Connection ~ 1800 2500
+Connection ~ 2600 2500
 $Comp
 L R_Small R17
 U 1 1 571FAC40
-P 5250 2850
-F 0 "R17" V 5150 2800 50  0000 L CNN
-F 1 "100K" V 5350 2750 50  0000 L CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H 5250 2850 50  0001 C CNN
-F 3 "" H 5250 2850 50  0000 C CNN
-F 4 "CCF07100KGKE36" H 5250 2850 60  0001 C CNN "Mfg_Part_No"
-	1    5250 2850
+P 5100 2250
+F 0 "R17" V 5000 2200 50  0000 L CNN
+F 1 "100K" V 5200 2150 50  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 5100 2250 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/cmfind-239942.pdf" H 5100 2250 50  0001 C CNN
+F 4 "CMF50100K00FHEB" H 5100 2250 60  0001 C CNN "Mfg_Part_No"
+F 5 "Metal Film Resistors - Through Hole 1/4watt 100Kohms 1%" H 5100 2250 60  0001 C CNN "Description"
+F 6 "Vishay / Dale" H 5100 2250 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 5100 2250 60  0001 C CNN "Distributor"
+F 8 "71-CMF50100K00FHEB" H 5100 2250 60  0001 C CNN "Distributor Part #"
+F 9 "DIN0204" H 5100 2250 60  0001 C CNN "Package"
+	1    5100 2250
 	0    1    1    0   
 $EndComp
 $Comp
 L R_Small R15
 U 1 1 571FAC41
-P 4050 3350
-F 0 "R15" V 3950 3300 50  0000 L CNN
-F 1 "150" V 4150 3250 50  0000 L CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H 4050 3350 50  0001 C CNN
-F 3 "" H 4050 3350 50  0000 C CNN
-F 4 "CCF07150RGKE36" H 4050 3350 60  0001 C CNN "Mfg_Part_No"
-	1    4050 3350
+P 3900 2750
+F 0 "R15" V 3800 2700 50  0000 L CNN
+F 1 "150" V 4000 2650 50  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 3900 2750 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/ccf50-239758.pdf" H 3900 2750 50  0001 C CNN
+F 4 "CCF50150RFKR36" H 3900 2750 60  0001 C CNN "Mfg_Part_No"
+F 5 "Metal Film Resistors - Through Hole 1/3watts 150ohms 1%" H 3900 2750 60  0001 C CNN "Description"
+F 6 "Vishay / Dale" H 3900 2750 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 3900 2750 60  0001 C CNN "Distributor"
+F 8 "71-CCF50-150" H 3900 2750 60  0001 C CNN "Distributor Part #"
+F 9 "2-THT" H 3900 2750 60  0001 C CNN "Package"
+	1    3900 2750
 	0    1    1    0   
 $EndComp
 $Comp
 L C_Small C13
 U 1 1 571FAC42
-P 4500 3350
-F 0 "C13" V 4400 3200 50  0000 L CNN
-F 1 "8n2" V 4600 3350 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Rect_L7_W2.5_P5" H 4500 3350 50  0001 C CNN
-F 3 "" H 4500 3350 50  0000 C CNN
-F 4 "QYX2A822KTP" H 4500 3350 60  0001 C CNN "Mfg_Part_No"
-	1    4500 3350
+P 4350 2750
+F 0 "C13" V 4250 2600 50  0000 L CNN
+F 1 "8n2" V 4450 2750 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 4350 2750 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/212/F3294_MMK-1101858.pdf" H 4350 2750 50  0001 C CNN
+F 4 "MMK5822J50J01L4BULK" H 4350 2750 60  0001 C CNN "Mfg_Part_No"
+F 5 "Film Capacitors 50volts 8200pF 5% LS 5mm" H 4350 2750 60  0001 C CNN "Description"
+F 6 "KEMET" H 4350 2750 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 4350 2750 60  0001 C CNN "Distributor"
+F 8 "80-MMK5822J50J01L4" H 4350 2750 60  0001 C CNN "Distributor Part #"
+F 9 "2-THT" H 4350 2750 60  0001 C CNN "Package"
+	1    4350 2750
 	0    1    1    0   
 $EndComp
 $Comp
 L C_Small C14
 U 1 1 571FAC43
-P 5250 3350
-F 0 "C14" V 5150 3200 50  0000 L CNN
-F 1 "22n" V 5350 3350 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Rect_L7_W2.5_P5" H 5250 3350 50  0001 C CNN
-F 3 "" H 5250 3350 50  0000 C CNN
-F 4 "QYX2A223KTP" H 5250 3350 60  0001 C CNN "Mfg_Part_No"
-	1    5250 3350
+P 5100 2750
+F 0 "C14" V 5000 2600 50  0000 L CNN
+F 1 "22n" V 5200 2750 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 5100 2750 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/212/KEM_F3101_R82-1103738.pdf" H 5100 2750 50  0001 C CNN
+F 4 "R82EC2220AA50J" H 5100 2750 60  0001 C CNN "Mfg_Part_No"
+F 5 "Film Capacitors 100volts 0.022uF 5%" H 5100 2750 60  0001 C CNN "Description"
+F 6 "KEMET" H 5100 2750 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 5100 2750 60  0001 C CNN "Distributor"
+F 8 "80-R82EC2220AA50J" H 5100 2750 60  0001 C CNN "Distributor Part #"
+F 9 "2-THT" H 5100 2750 60  0001 C CNN "Package"
+	1    5100 2750
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5350 3350 6400 3350
+	5200 2750 6250 2750
 Wire Wire Line
-	5350 2850 5550 2850
+	5200 2250 5400 2250
 Wire Wire Line
-	5550 2850 5550 3350
-Connection ~ 5550 3350
+	5400 2250 5400 2750
+Connection ~ 5400 2750
 Wire Wire Line
-	4150 2850 5150 2850
+	4000 2250 5000 2250
 Wire Wire Line
-	4600 3350 5150 3350
+	4450 2750 5000 2750
 Wire Wire Line
-	4850 3350 4850 2850
-Connection ~ 4850 2850
-Connection ~ 4850 3350
+	4700 2750 4700 2250
+Connection ~ 4700 2250
+Connection ~ 4700 2750
 Wire Wire Line
-	4150 3350 4400 3350
+	4000 2750 4250 2750
 Wire Wire Line
-	3950 2850 3550 2850
+	3800 2250 3400 2250
 Wire Wire Line
-	3550 2200 3550 4050
+	3400 1600 3400 3450
 Wire Wire Line
-	3550 3350 3950 3350
+	3400 2750 3800 2750
 $Comp
 L R_Small R18
 U 1 1 571FAC45
-P 4250 4050
-F 0 "R18" V 4150 4000 50  0000 L CNN
-F 1 "1K" V 4350 3950 50  0000 L CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H 4250 4050 50  0001 C CNN
-F 3 "" H 4250 4050 50  0000 C CNN
-	1    4250 4050
+P 4100 3450
+F 0 "R18" V 4000 3400 50  0000 L CNN
+F 1 "1K" V 4200 3350 50  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 4100 3450 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/ccf50-239758.pdf" H 4100 3450 50  0001 C CNN
+F 4 "CCF501K00FKE36" H 4100 3450 60  0001 C CNN "Mfg_Part_No"
+F 5 "Metal Film Resistors - Through Hole 1/3watts 1Kohms 1%" H 4100 3450 60  0001 C CNN "Description"
+F 6 "Vishay / Dale" H 4100 3450 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 4100 3450 60  0001 C CNN "Distributor"
+F 8 "71-CCF501K00FKE36" H 4100 3450 60  0001 C CNN "Distributor Part #"
+F 9 "2-THT" H 4100 3450 60  0001 C CNN "Package"
+	1    4100 3450
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2750 4000 2750 4050
+	2600 3400 2600 3450
 Wire Wire Line
-	2750 4050 4150 4050
+	2600 3450 4000 3450
 Wire Wire Line
-	4350 4050 5650 4050
+	4200 3450 5500 3450
 Wire Wire Line
-	5650 4050 5650 3450
+	5500 3450 5500 2850
 Wire Wire Line
-	5650 3450 6400 3450
+	5500 2850 6250 2850
 Wire Wire Line
-	8650 1150 9100 1150
+	9900 1000 10350 1000
 Wire Wire Line
-	8650 1350 9100 1350
-Text Label 9100 1150 0    60   ~ 0
+	9900 1200 10350 1200
+Text Label 10350 1000 0    60   ~ 0
 V+
-Text Label 9100 1350 0    60   ~ 0
+Text Label 10350 1200 0    60   ~ 0
 V-
 Wire Wire Line
-	4000 2200 3550 2200
-Connection ~ 3550 2850
+	3850 1600 3400 1600
+Connection ~ 3400 2250
 Wire Wire Line
-	2750 2050 2750 2000
+	2600 1450 2600 1400
 Wire Wire Line
-	2750 2000 4000 2000
+	2600 1400 3850 1400
 Wire Wire Line
-	4600 2100 6550 2100
+	4450 1500 6400 1500
 Wire Wire Line
-	6000 2100 6000 3250
+	5850 1500 5850 2650
 Wire Wire Line
-	6000 3250 6400 3250
-Text Label 4200 1650 0    60   ~ 0
+	5850 2650 6250 2650
+Text Label 4050 1050 0    60   ~ 0
 V+
-Text Label 4200 2550 0    60   ~ 0
+Text Label 4050 1950 0    60   ~ 0
 V-
 Wire Wire Line
-	4200 2550 4200 2400
+	4050 1950 4050 1800
 Wire Wire Line
-	4200 1650 4200 1800
+	4050 1050 4050 1200
 $Comp
-L CP_Small C15
-U 1 1 571FAC49
-P 6650 2100
-F 0 "C15" V 6800 2100 50  0000 L CNN
-F 1 "10u" V 6700 1900 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D5_L11_P2.5" H 6650 2100 50  0001 C CNN
-F 3 "" H 6650 2100 50  0000 C CNN
-F 4 "UVR1A101MDD" H 6650 2100 60  0001 C CNN "Mfg_Part_No"
-	1    6650 2100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R_Small R19
-U 1 1 571FAC4A
-P 6950 2300
-F 0 "R19" V 6850 2250 50  0000 L CNN
-F 1 "47K" V 7050 2250 50  0000 L CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H 6950 2300 50  0001 C CNN
-F 3 "" H 6950 2300 50  0000 C CNN
-F 4 "CCF0747K0GKE36" H 6950 2300 60  0001 C CNN "Mfg_Part_No"
-	1    6950 2300
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR103
+L GND #PWR02
 U 1 1 571FAC4B
-P 7350 2300
-F 0 "#PWR103" H 7350 2050 50  0001 C CNN
-F 1 "GND" H 7350 2150 50  0000 C CNN
-F 2 "" H 7350 2300 50  0000 C CNN
-F 3 "" H 7350 2300 50  0000 C CNN
-	1    7350 2300
+P 7200 1700
+F 0 "#PWR02" H 7200 1450 50  0001 C CNN
+F 1 "GND" H 7200 1550 50  0000 C CNN
+F 2 "" H 7200 1700 50  0000 C CNN
+F 3 "" H 7200 1700 50  0000 C CNN
+	1    7200 1700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7050 2300 7600 2300
+	6900 1700 7450 1700
 Wire Wire Line
-	7700 2200 7600 2200
+	7550 1600 7450 1600
 Wire Wire Line
-	7600 2200 7600 2300
-Connection ~ 7350 2300
+	7450 1600 7450 1700
+Connection ~ 7200 1700
 Wire Wire Line
-	6850 2300 6450 2300
+	6700 1700 6300 1700
 Wire Wire Line
-	6450 2300 6450 2100
-Connection ~ 6000 2100
-Connection ~ 6450 2100
+	6300 1700 6300 1500
+Connection ~ 5850 1500
+Connection ~ 6300 1500
 Wire Wire Line
-	6750 2100 7700 2100
+	6600 1500 7550 1500
 $Comp
-L Header_01x02 H21
-U 1 1 571FB0EE
-P 1550 5700
-F 0 "H21" H 1900 6250 60  0000 C CNN
-F 1 "Header_01x02" H 1500 6350 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 1550 5700 60  0001 C CNN
-F 3 "" H 1550 5700 60  0000 C CNN
-	1    1550 5700
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CP_Small C21
-U 1 1 571FB0F6
-P 2550 5200
-F 0 "C21" V 2500 5000 50  0000 L CNN
-F 1 "10u" V 2650 5000 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D5_L11_P2.5" H 2550 5200 50  0001 C CNN
-F 3 "" H 2550 5200 50  0000 C CNN
-F 4 "UVR1V100MDD1TA" H 2550 5200 60  0001 C CNN "Mfg_Part_No"
-	1    2550 5200
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR102
+L GND #PWR03
 U 1 1 571FB0FD
-P 2000 5900
-F 0 "#PWR102" H 2000 5650 50  0001 C CNN
-F 1 "GND" H 2000 5750 50  0000 C CNN
-F 2 "" H 2000 5900 50  0000 C CNN
-F 3 "" H 2000 5900 50  0000 C CNN
-	1    2000 5900
+P 1800 5900
+F 0 "#PWR03" H 1800 5650 50  0001 C CNN
+F 1 "GND" H 1800 5750 50  0000 C CNN
+F 2 "" H 1800 5900 50  0000 C CNN
+F 3 "" H 1800 5900 50  0000 C CNN
+	1    1800 5900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1900 5300 2000 5300
+	1700 5300 1800 5300
 Wire Wire Line
-	2000 5300 2000 5900
+	1800 5300 1800 5900
 Wire Wire Line
-	1900 5200 2450 5200
-$Comp
-L R_Small R21
-U 1 1 571FB107
-P 2800 4900
-F 0 "R21" H 2830 4920 50  0000 L CNN
-F 1 "100" H 2830 4860 50  0000 L CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H 2800 4900 50  0001 C CNN
-F 3 "" H 2800 4900 50  0000 C CNN
-F 4 "CCF07100RJKE36" H 2800 4900 60  0001 C CNN "Mfg_Part_No"
-	1    2800 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_Small R22
-U 1 1 571FB10F
-P 2800 5600
-F 0 "R22" H 2830 5620 50  0000 L CNN
-F 1 "47K" H 2830 5560 50  0000 L CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H 2800 5600 50  0001 C CNN
-F 3 "" H 2800 5600 50  0000 C CNN
-F 4 "CCF0747K0GKE36" H 2800 5600 60  0001 C CNN "Mfg_Part_No"
-	1    2800 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L CP_Small C22
-U 1 1 571FB117
-P 2800 6150
-F 0 "C22" H 2810 6220 50  0000 L CNN
-F 1 "100u" H 2810 6070 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D5_L11_P2.5" H 2800 6150 50  0001 C CNN
-F 3 "" H 2800 6150 50  0000 C CNN
-F 4 "UVR1A101MDD" H 2800 6150 60  0001 C CNN "Mfg_Part_No"
-	1    2800 6150
-	-1   0    0    1   
-$EndComp
-$Comp
-L R_Small R23
-U 1 1 571FB11F
-P 2800 6650
-F 0 "R23" H 2830 6670 50  0000 L CNN
-F 1 "470" H 2830 6610 50  0000 L CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H 2800 6650 50  0001 C CNN
-F 3 "" H 2800 6650 50  0000 C CNN
-F 4 "CCF07470RGKE36CCF07470RGKE36CCF07470RGKE36" H 2800 6650 60  0001 C CNN "Mfg_Part_No"
-	1    2800 6650
-	1    0    0    -1  
-$EndComp
+	1700 5200 2250 5200
 Wire Wire Line
-	2650 5200 2800 5200
+	2450 5200 2600 5200
 Wire Wire Line
-	2800 5000 2800 5500
-Connection ~ 2800 5200
+	2600 5000 2600 5500
+Connection ~ 2600 5200
 Wire Wire Line
-	2800 5700 2800 6050
+	2600 5700 2600 6050
 Wire Wire Line
-	2800 6250 2800 6550
+	2600 6250 2600 6550
 Wire Wire Line
-	2800 5850 2000 5850
-Connection ~ 2000 5850
-Connection ~ 2800 5850
+	2600 5850 1800 5850
+Connection ~ 1800 5850
+Connection ~ 2600 5850
 $Comp
 L R_Small R24
 U 1 1 571FB137
-P 4100 5600
-F 0 "R24" V 4000 5550 50  0000 L CNN
-F 1 "10K" V 4200 5550 50  0000 L CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H 4100 5600 50  0001 C CNN
-F 3 "" H 4100 5600 50  0000 C CNN
-F 4 "CCF0710K0GKE36" H 4100 5600 60  0001 C CNN "Mfg_Part_No"
-	1    4100 5600
-	0    1    1    0   
-$EndComp
-$Comp
-L R_Small R27
-U 1 1 571FB13F
-P 5300 5600
-F 0 "R27" V 5200 5550 50  0000 L CNN
-F 1 "100K" V 5400 5500 50  0000 L CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H 5300 5600 50  0001 C CNN
-F 3 "" H 5300 5600 50  0000 C CNN
-F 4 "CCF07100KGKE36" H 5300 5600 60  0001 C CNN "Mfg_Part_No"
-	1    5300 5600
-	0    1    1    0   
-$EndComp
-$Comp
-L R_Small R25
-U 1 1 571FB147
-P 4100 6100
-F 0 "R25" V 4000 6050 50  0000 L CNN
-F 1 "150" V 4200 6000 50  0000 L CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H 4100 6100 50  0001 C CNN
-F 3 "" H 4100 6100 50  0000 C CNN
-F 4 "CCF07150RGKE36" H 4100 6100 60  0001 C CNN "Mfg_Part_No"
-	1    4100 6100
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C23
-U 1 1 571FB14F
-P 4550 6100
-F 0 "C23" V 4500 5950 50  0000 L CNN
-F 1 "8n2" V 4650 6100 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Rect_L7_W2.5_P5" H 4550 6100 50  0001 C CNN
-F 3 "" H 4550 6100 50  0000 C CNN
-F 4 "QYX2A822KTP" H 4550 6100 60  0001 C CNN "Mfg_Part_No"
-	1    4550 6100
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C24
-U 1 1 571FB157
-P 5300 6100
-F 0 "C24" V 5250 5950 50  0000 L CNN
-F 1 "22n" V 5400 6100 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Rect_L7_W2.5_P5" H 5300 6100 50  0001 C CNN
-F 3 "" H 5300 6100 50  0000 C CNN
-F 4 "QYX2A223KTP" H 5300 6100 60  0001 C CNN "Mfg_Part_No"
-	1    5300 6100
+P 3900 5600
+F 0 "R24" V 3800 5550 50  0000 L CNN
+F 1 "10K" V 4000 5550 50  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 3900 5600 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/ccf50-239758.pdf" H 3900 5600 50  0001 C CNN
+F 4 "CCF5010K0FKE36" H 3900 5600 60  0001 C CNN "Mfg_Part_No"
+F 5 "Metal Film Resistors - Through Hole 1/3watts 10Kohms 1%" H 3900 5600 60  0001 C CNN "Description"
+F 6 "Vishay / Dale" H 3900 5600 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 3900 5600 60  0001 C CNN "Distributor"
+F 8 "71-CCF5010K0FKE36" H 3900 5600 60  0001 C CNN "Distributor Part #"
+F 9 "DIN0204" H 3900 5600 60  0001 C CNN "Package"
+	1    3900 5600
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5400 6100 6450 6100
+	5200 6100 6250 6100
 Wire Wire Line
-	5400 5600 5600 5600
+	5200 5600 5400 5600
 Wire Wire Line
-	5600 5600 5600 6100
-Connection ~ 5600 6100
+	5400 5600 5400 6100
+Connection ~ 5400 6100
 Wire Wire Line
-	4200 5600 5200 5600
+	4000 5600 5000 5600
 Wire Wire Line
-	4650 6100 5200 6100
+	4450 6100 5000 6100
 Wire Wire Line
-	4900 6100 4900 5600
-Connection ~ 4900 5600
-Connection ~ 4900 6100
+	4700 6100 4700 5600
+Connection ~ 4700 5600
+Connection ~ 4700 6100
 Wire Wire Line
-	4200 6100 4450 6100
+	4000 6100 4250 6100
 Wire Wire Line
-	4000 5600 3600 5600
+	3800 5600 3400 5600
 Wire Wire Line
-	3600 4950 3600 6800
+	3400 4950 3400 6800
 Wire Wire Line
-	3600 6100 4000 6100
-$Comp
-L R_Small R28
-U 1 1 571FB172
-P 4300 6800
-F 0 "R28" V 4200 6750 50  0000 L CNN
-F 1 "1K" V 4400 6700 50  0000 L CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H 4300 6800 50  0001 C CNN
-F 3 "" H 4300 6800 50  0000 C CNN
-	1    4300 6800
-	0    1    1    0   
-$EndComp
+	3400 6100 3800 6100
 Wire Wire Line
-	2800 6750 2800 6800
+	2600 6750 2600 6800
 Wire Wire Line
-	2800 6800 4200 6800
+	2600 6800 4000 6800
 Wire Wire Line
-	4400 6800 5700 6800
+	4200 6800 5500 6800
 Wire Wire Line
-	5700 6800 5700 6200
+	5500 6800 5500 6200
 Wire Wire Line
-	5700 6200 6450 6200
+	5500 6200 6250 6200
 Wire Wire Line
-	4050 4950 3600 4950
-Connection ~ 3600 5600
+	3850 4950 3400 4950
+Connection ~ 3400 5600
 Wire Wire Line
-	2800 4800 2800 4750
+	2600 4800 2600 4750
 Wire Wire Line
-	2800 4750 4050 4750
+	2600 4750 3850 4750
 Wire Wire Line
-	4650 4850 6600 4850
+	4450 4850 6400 4850
 Wire Wire Line
-	6050 4850 6050 6000
+	5850 4850 5850 6000
 Wire Wire Line
-	6050 6000 6450 6000
-Text Label 4250 4400 0    60   ~ 0
+	5850 6000 6250 6000
+Text Label 4050 4400 0    60   ~ 0
 V+
-Text Label 4250 5300 0    60   ~ 0
+Text Label 4050 5300 0    60   ~ 0
 V-
 Wire Wire Line
-	4250 5300 4250 5150
+	4050 5300 4050 5150
 Wire Wire Line
-	4250 4400 4250 4550
+	4050 4400 4050 4550
 $Comp
 L CP_Small C25
 U 1 1 571FB18A
-P 6700 4850
-F 0 "C25" V 6850 4850 50  0000 L CNN
-F 1 "10u" V 6750 4650 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D5_L11_P2.5" H 6700 4850 50  0001 C CNN
-F 3 "" H 6700 4850 50  0000 C CNN
-F 4 "UVR1A101MDD" H 6700 4850 60  0001 C CNN "Mfg_Part_No"
-	1    6700 4850
+P 6500 4850
+F 0 "C25" V 6650 4850 50  0000 L CNN
+F 1 "10u" V 6550 4650 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D5_L11_P2.5" H 6500 4850 50  0001 C CNN
+F 3 "" H 6500 4850 50  0000 C CNN
+F 4 "UVR1A101MDD" H 6500 4850 60  0001 C CNN "Mfg_Part_No"
+	1    6500 4850
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_Small R29
-U 1 1 571FB192
-P 7000 5050
-F 0 "R29" V 6900 5000 50  0000 L CNN
-F 1 "47K" V 7100 5000 50  0000 L CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H 7000 5050 50  0001 C CNN
-F 3 "" H 7000 5050 50  0000 C CNN
-F 4 "CCF0747K0GKE36" H 7000 5050 60  0001 C CNN "Mfg_Part_No"
-	1    7000 5050
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR104
+L GND #PWR04
 U 1 1 571FB199
-P 7400 5050
-F 0 "#PWR104" H 7400 4800 50  0001 C CNN
-F 1 "GND" H 7400 4900 50  0000 C CNN
-F 2 "" H 7400 5050 50  0000 C CNN
-F 3 "" H 7400 5050 50  0000 C CNN
-	1    7400 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Header_01x02 H22
-U 1 1 571FB19F
-P 8100 5350
-F 0 "H22" H 8450 5900 60  0000 C CNN
-F 1 "Header_01x02" H 8050 6000 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 8100 5350 60  0001 C CNN
-F 3 "" H 8100 5350 60  0000 C CNN
-	1    8100 5350
+P 7200 5050
+F 0 "#PWR04" H 7200 4800 50  0001 C CNN
+F 1 "GND" H 7200 4900 50  0000 C CNN
+F 2 "" H 7200 5050 50  0000 C CNN
+F 3 "" H 7200 5050 50  0000 C CNN
+	1    7200 5050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7100 5050 7650 5050
+	6900 5050 7450 5050
 Wire Wire Line
-	7750 4950 7650 4950
+	7550 4950 7450 4950
 Wire Wire Line
-	7650 4950 7650 5050
-Connection ~ 7400 5050
+	7450 4950 7450 5050
+Connection ~ 7200 5050
 Wire Wire Line
-	6900 5050 6500 5050
+	6700 5050 6300 5050
 Wire Wire Line
-	6500 5050 6500 4850
-Connection ~ 6050 4850
-Connection ~ 6500 4850
+	6300 5050 6300 4850
+Connection ~ 5850 4850
+Connection ~ 6300 4850
 Wire Wire Line
-	6800 4850 7750 4850
+	6600 4850 7550 4850
 $Comp
-L GND #PWR105
+L GND #PWR05
 U 1 1 5724D462
-P 9400 1250
-F 0 "#PWR105" H 9400 1000 50  0001 C CNN
-F 1 "GND" H 9400 1100 50  0000 C CNN
-F 2 "" H 9400 1250 50  0000 C CNN
-F 3 "" H 9400 1250 50  0000 C CNN
-	1    9400 1250
+P 10650 1100
+F 0 "#PWR05" H 10650 850 50  0001 C CNN
+F 1 "GND" H 10650 950 50  0000 C CNN
+F 2 "" H 10650 1100 50  0000 C CNN
+F 3 "" H 10650 1100 50  0000 C CNN
+	1    10650 1100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8650 1250 9400 1250
-Connection ~ 3550 4050
-Connection ~ 3550 3350
-Connection ~ 3600 6800
-Connection ~ 3600 6100
-Text Label 7250 2100 0    60   ~ 0
+	9900 1100 10650 1100
+Connection ~ 3400 3450
+Connection ~ 3400 2750
+Connection ~ 3400 6800
+Connection ~ 3400 6100
+Text Label 7100 1500 0    60   ~ 0
 OUT_L
-Text Label 1950 2450 0    60   ~ 0
+Text Label 1800 1850 0    60   ~ 0
 IN_L
-Text Label 2000 5200 0    60   ~ 0
+Text Label 1800 5200 0    60   ~ 0
 IN_R
-Text Label 7350 4850 0    60   ~ 0
+Text Label 7150 4850 0    60   ~ 0
 OUT_R
 $Comp
 L Conn_01x02 H11
 U 1 1 5A0F19A2
-P 1650 2450
-F 0 "H11" H 1650 2550 50  0000 C CNN
-F 1 "Conn_01x02" H 1650 2250 50  0000 C CNN
-F 2 "" H 1650 2450 50  0001 C CNN
-F 3 "" H 1650 2450 50  0001 C CNN
-F 4 "Mouser" H 1650 2450 60  0001 C CNN "Distributor"
-F 5 "2-THT" H 1650 2450 60  0001 C CNN "Package"
-F 6 "Embases et logements de câbles WR-PHD 2.54mm Hdr 2P Single RA Gold" H 1650 2450 60  0001 C CNN "Description"
-	1    1650 2450
+P 1500 1850
+F 0 "H11" H 1500 1950 50  0000 C CNN
+F 1 "Conn_01x02" H 1500 1650 50  0000 C CNN
+F 2 "" H 1500 1850 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/445/6130xx11121-538006.pdf" H 1500 1850 50  0001 C CNN
+F 4 "61300211121" H 1500 1850 60  0001 C CNN "Mfg_Part_No"
+F 5 "Embases et logements de câbles WR-PHD 2.54mm Hdr 2P Single RA Gold" H 1500 1850 60  0001 C CNN "Description"
+F 6 "Wurth Electronics" H 1500 1850 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 1500 1850 60  0001 C CNN "Distributor"
+F 8 "710-61300211121" H 1500 1850 60  0001 C CNN "Distributor Part #"
+F 9 "2-THT" H 1500 1850 60  0001 C CNN "Package"
+	1    1500 1850
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Conn_01x03_Male H13
 U 1 1 5A0F258B
-P 6600 3350
-F 0 "H13" H 6600 3550 50  0000 C CNN
-F 1 "Conn_01x03_Male" H 6600 3150 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight" H 6600 3350 50  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/276/0022272031_PCB_HEADERS-227496.pdf" H 6600 3350 50  0001 C CNN
-F 4 "22-27-2031" H 6600 3350 60  0001 C CNN "Mfg_Part_#"
-F 5 "Mouser" H 6600 3350 60  0001 C CNN "Distributor"
-F 6 "538-22-27-2031" H 6600 3350 60  0001 C CNN "Distributor Part #"
-F 7 "3-THT" H 6600 3350 60  0001 C CNN "Package"
-F 8 "Embases et logements de câbles 3C STR HEADER W/FRLK" H 6600 3350 60  0001 C CNN "Description"
-F 9 "Molex" H 6600 3350 60  0001 C CNN "Manufacturer"
-	1    6600 3350
+P 6450 2750
+F 0 "H13" H 6450 2950 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 6450 2550 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight" H 6450 2750 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/276/0022272031_PCB_HEADERS-227496.pdf" H 6450 2750 50  0001 C CNN
+F 4 "22-27-2031" H 6450 2750 60  0001 C CNN "Mfg_Part_No"
+F 5 "Embases et logements de câbles 3C STR HEADER W/FRLK" H 6450 2750 60  0001 C CNN "Description"
+F 6 "Molex" H 6450 2750 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 6450 2750 60  0001 C CNN "Distributor"
+F 8 "538-22-27-2031" H 6450 2750 60  0001 C CNN "Distributor Part #"
+F 9 "3-THT" H 6450 2750 60  0001 C CNN "Package"
+F 10 "22-27-2031" H 6450 2750 60  0001 C CNN "Mfg_Part_#"
+	1    6450 2750
 	-1   0    0    -1  
-$EndComp
-$Comp
-L Conn_01x02 H12
-U 1 1 5A0F2994
-P 7900 2100
-F 0 "H12" H 7900 2200 50  0000 C CNN
-F 1 "Conn_01x02" H 7900 1900 50  0000 C CNN
-F 2 "" H 7900 2100 50  0001 C CNN
-F 3 "" H 7900 2100 50  0001 C CNN
-	1    7900 2100
-	1    0    0    -1  
 $EndComp
 $Comp
 L Conn_01x03 H1
 U 1 1 5A0F2CB4
-P 8450 1250
-F 0 "H1" H 8450 1450 50  0000 C CNN
-F 1 "Conn_01x03" H 8450 1050 50  0000 C CNN
-F 2 "" H 8450 1250 50  0001 C CNN
-F 3 "" H 8450 1250 50  0001 C CNN
-	1    8450 1250
+P 9700 1100
+F 0 "H1" H 9700 1300 50  0000 C CNN
+F 1 "Conn_01x03" H 9700 900 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 9700 1100 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/445/6130xx11121-538006.pdf" H 9700 1100 50  0001 C CNN
+F 4 "61300311121" H 9700 1100 60  0001 C CNN "Mfg_Part_No"
+F 5 "Headers & Wire Housings WR-PHD 2.54mm Hdr 3P Single Str Gold" H 9700 1100 60  0001 C CNN "Description"
+F 6 "Wurth Electronics" H 9700 1100 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 9700 1100 60  0001 C CNN "Distributor"
+F 8 "710-61300311121" H 9700 1100 60  0001 C CNN "Distributor Part #"
+F 9 "3-THT" H 9700 1100 60  0001 C CNN "Package"
+	1    9700 1100
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Conn_01x03_Male H23
 U 1 1 5A0F37D2
-P 6650 6100
-F 0 "H23" H 6650 6300 50  0000 C CNN
-F 1 "Conn_01x03_Male" H 6650 5900 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight" H 6650 6100 50  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/276/0022272031_PCB_HEADERS-227496.pdf" H 6650 6100 50  0001 C CNN
-F 4 "22-27-2031" H 6650 6100 60  0001 C CNN "Mfg_Part_#"
-F 5 "Mouser" H 6650 6100 60  0001 C CNN "Distributor"
-F 6 "538-22-27-2031" H 6650 6100 60  0001 C CNN "Distributor Part #"
-F 7 "3-THT" H 6650 6100 60  0001 C CNN "Package"
-F 8 "Embases et logements de câbles 3C STR HEADER W/FRLK" H 6650 6100 60  0001 C CNN "Description"
-F 9 "Molex" H 6650 6100 60  0001 C CNN "Manufacturer"
-	1    6650 6100
+P 6450 6100
+F 0 "H23" H 6450 6300 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 6450 5900 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight" H 6450 6100 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/276/0022272031_PCB_HEADERS-227496.pdf" H 6450 6100 50  0001 C CNN
+F 4 "22-27-2031" H 6450 6100 60  0001 C CNN "Mfg_Part_No"
+F 5 "Embases et logements de câbles 3C STR HEADER W/FRLK" H 6450 6100 60  0001 C CNN "Description"
+F 6 "Molex" H 6450 6100 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 6450 6100 60  0001 C CNN "Distributor"
+F 8 "538-22-27-2031" H 6450 6100 60  0001 C CNN "Distributor Part #"
+F 9 "3-THT" H 6450 6100 60  0001 C CNN "Package"
+F 10 "22-27-2031" H 6450 6100 60  0001 C CNN "Mfg_Part_#"
+	1    6450 6100
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Conn_01x03_Female J23
 U 1 1 5A0F3A3C
-P 7550 6100
-F 0 "J23" H 7550 6300 50  0000 C CNN
-F 1 "Conn_01x03_Female" H 7550 5900 50  0000 C CNN
-F 2 "" H 7550 6100 50  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/276/0022013037_CRIMP_HOUSINGS-158306.pdf" H 7550 6100 50  0001 C CNN
-F 4 "22-01-3037" H 7550 6100 60  0001 C CNN "Mfg_Part_#"
-F 5 "Mouser" H 7550 6100 60  0001 C CNN "Distributor"
-F 6 "538-22-01-3037" H 7550 6100 60  0001 C CNN "Distributor Part #"
-F 7 "Embases et logements de câbles HSG 3P W/RAMP/RIBS" H 7550 6100 60  0001 C CNN "Description"
-F 8 "Molex" H 7550 6100 60  0001 C CNN "Manufacturer"
-	1    7550 6100
+P 7350 6100
+F 0 "J23" H 7350 6300 50  0000 C CNN
+F 1 "Conn_01x03_Female" H 7350 5900 50  0000 C CNN
+F 2 "" H 7350 6100 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/276/0022013037_CRIMP_HOUSINGS-158306.pdf" H 7350 6100 50  0001 C CNN
+F 4 "22-01-3037" H 7350 6100 60  0001 C CNN "Mfg_Part_No"
+F 5 "Embases et logements de câbles HSG 3P W/RAMP/RIBS" H 7350 6100 60  0001 C CNN "Description"
+F 6 "Molex" H 7350 6100 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 7350 6100 60  0001 C CNN "Distributor"
+F 8 "538-22-01-3037" H 7350 6100 60  0001 C CNN "Distributor Part #"
+F 9 "22-01-3037" H 7350 6100 60  0001 C CNN "Mfg_Part_#"
+	1    7350 6100
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Conn_01x03_Female J13
 U 1 1 5A0F3E8C
-P 7550 3350
-F 0 "J13" H 7550 3550 50  0000 C CNN
-F 1 "Conn_01x03_Female" H 7550 3150 50  0000 C CNN
-F 2 "" H 7550 3350 50  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/276/0022013037_CRIMP_HOUSINGS-158306.pdf" H 7550 3350 50  0001 C CNN
-F 4 "22-01-3037" H 7550 3350 60  0001 C CNN "Mfg_Part_#"
-F 5 "Mouser" H 7550 3350 60  0001 C CNN "Distributor"
-F 6 "538-22-01-3037" H 7550 3350 60  0001 C CNN "Distributor Part #"
-F 7 "Embases et logements de câbles HSG 3P W/RAMP/RIBS" H 7550 3350 60  0001 C CNN "Description"
-F 8 "Molex" H 7550 3350 60  0001 C CNN "Manufacturer"
-	1    7550 3350
+P 7400 2750
+F 0 "J13" H 7400 2950 50  0000 C CNN
+F 1 "Conn_01x03_Female" H 7400 2550 50  0000 C CNN
+F 2 "" H 7400 2750 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/276/0022013037_CRIMP_HOUSINGS-158306.pdf" H 7400 2750 50  0001 C CNN
+F 4 "22-01-3037" H 7400 2750 60  0001 C CNN "Mfg_Part_No"
+F 5 "Embases et logements de câbles HSG 3P W/RAMP/RIBS" H 7400 2750 60  0001 C CNN "Description"
+F 6 "Molex" H 7400 2750 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 7400 2750 60  0001 C CNN "Distributor"
+F 8 "538-22-01-3037" H 7400 2750 60  0001 C CNN "Distributor Part #"
+F 9 "22-01-3037" H 7400 2750 60  0001 C CNN "Mfg_Part_#"
+	1    7400 2750
 	-1   0    0    -1  
 $EndComp
 $Comp
 L NE5532 U1
 U 2 1 5A14798A
-P 4350 4850
-F 0 "U1" H 4500 5000 50  0000 C CNN
-F 1 "NE5532" H 4600 4700 50  0000 C CNN
-F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 4350 4850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/ne5532" H 4350 4850 50  0001 C CNN
-F 4 "NE5532P" H 4350 4850 60  0001 C CNN "Mfg_Part_No"
-F 5 "Operational Amplifiers - Op Amps Dual Low Noise" H 4350 4850 60  0001 C CNN "Description"
-F 6 "Texas Instruments" H 4350 4850 60  0001 C CNN "Manufacturer"
-F 7 "Mouser" H 4350 4850 60  0001 C CNN "Distributor"
-F 8 "595-NE5532P" H 4350 4850 60  0001 C CNN "Distributor Part #"
-F 9 "8-PDIP" H 4350 4850 60  0001 C CNN "Package"
-	2    4350 4850
+P 4150 4850
+F 0 "U1" H 4300 5000 50  0000 C CNN
+F 1 "NE5532" H 4400 4700 50  0000 C CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 4150 4850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/ne5532" H 4150 4850 50  0001 C CNN
+F 4 "NE5532P" H 4150 4850 60  0001 C CNN "Mfg_Part_No"
+F 5 "Operational Amplifiers - Op Amps Dual Low Noise" H 4150 4850 60  0001 C CNN "Description"
+F 6 "Texas Instruments" H 4150 4850 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 4150 4850 60  0001 C CNN "Distributor"
+F 8 "595-NE5532P" H 4150 4850 60  0001 C CNN "Distributor Part #"
+F 9 "8-PDIP" H 4150 4850 60  0001 C CNN "Package"
+	2    4150 4850
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW_DPDT_x2 SW101
 U 2 1 5A148165
-P 8450 3350
-F 0 "SW101" H 8450 3520 50  0000 C CNN
-F 1 "SW_DPDT_x2" H 8450 3150 50  0000 C CNN
-F 2 "" H 8450 3350 50  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/418/NG_CD_1825138_A5_baseFilename-660361.pdf" H 8450 3350 50  0001 C CNN
-F 4 "A201SYZQ04" H 8450 3350 60  0001 C CNN "Mfg_Part_No"
-F 5 "Toggle Switches DP ON-ON LNG BAT LUG TOGGLE SWITCH" H 8450 3350 60  0001 C CNN "Description"
-F 6 "TE Connectivity / Alcoswitch" H 8450 3350 60  0001 C CNN "Manufacturer"
-F 7 "Mouser" H 8450 3350 60  0001 C CNN "Distributor"
-F 8 "506-A201SYZQ04" H 8450 3350 60  0001 C CNN "Distributor Part #"
-	2    8450 3350
+P 8300 2750
+F 0 "SW101" H 8300 2920 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 8300 2550 50  0000 C CNN
+F 2 "" H 8300 2750 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/418/NG_CD_1825138_A5_baseFilename-660361.pdf" H 8300 2750 50  0001 C CNN
+F 4 "A201SYZQ04" H 8300 2750 60  0001 C CNN "Mfg_Part_No"
+F 5 "Toggle Switches DP ON-ON LNG BAT LUG TOGGLE SWITCH" H 8300 2750 60  0001 C CNN "Description"
+F 6 "TE Connectivity / Alcoswitch" H 8300 2750 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 8300 2750 60  0001 C CNN "Distributor"
+F 8 "506-A201SYZQ04" H 8300 2750 60  0001 C CNN "Distributor Part #"
+	2    8300 2750
 	-1   0    0    1   
 $EndComp
 $Comp
 L SW_DPDT_x2 SW101
 U 1 1 5A14863A
-P 8400 6100
-F 0 "SW101" H 8400 6270 50  0000 C CNN
-F 1 "SW_DPDT_x2" H 8400 5900 50  0000 C CNN
-F 2 "" H 8400 6100 50  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/418/NG_CD_1825138_A5_baseFilename-660361.pdf" H 8400 6100 50  0001 C CNN
-F 4 "A201SYZQ04" H 8400 6100 60  0001 C CNN "Mfg_Part_No"
-F 5 "Toggle Switches DP ON-ON LNG BAT LUG TOGGLE SWITCH" H 8400 6100 60  0001 C CNN "Description"
-F 6 "TE Connectivity / Alcoswitch" H 8400 6100 60  0001 C CNN "Manufacturer"
-F 7 "Mouser" H 8400 6100 60  0001 C CNN "Distributor"
-F 8 "506-A201SYZQ04" H 8400 6100 60  0001 C CNN "Distributor Part #"
-F 9 "0402" H 8400 6100 60  0001 C CNN "Package"
-	1    8400 6100
+P 8200 6100
+F 0 "SW101" H 8200 6270 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 8200 5900 50  0000 C CNN
+F 2 "" H 8200 6100 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/418/NG_CD_1825138_A5_baseFilename-660361.pdf" H 8200 6100 50  0001 C CNN
+F 4 "A201SYZQ04" H 8200 6100 60  0001 C CNN "Mfg_Part_No"
+F 5 "Toggle Switches DP ON-ON LNG BAT LUG TOGGLE SWITCH" H 8200 6100 60  0001 C CNN "Description"
+F 6 "TE Connectivity / Alcoswitch" H 8200 6100 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 8200 6100 60  0001 C CNN "Distributor"
+F 8 "506-A201SYZQ04" H 8200 6100 60  0001 C CNN "Distributor Part #"
+F 9 "0402" H 8200 6100 60  0001 C CNN "Package"
+	1    8200 6100
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7750 6000 8000 6000
+	7550 6000 7800 6000
 Wire Wire Line
-	8000 6000 8000 5650
+	7800 6000 7800 5650
 Wire Wire Line
-	8000 5650 8750 5650
+	7800 5650 8550 5650
 Wire Wire Line
-	8750 5650 8750 6100
+	8550 5650 8550 6100
 Wire Wire Line
-	8750 6100 8600 6100
+	8550 6100 8400 6100
 Wire Wire Line
-	8200 6000 8050 6000
+	8000 6000 7850 6000
 Wire Wire Line
-	8050 6000 8050 6100
+	7850 6000 7850 6100
 Wire Wire Line
-	8050 6100 7750 6100
+	7850 6100 7550 6100
 Wire Wire Line
-	7750 6200 8200 6200
+	7550 6200 8000 6200
 Wire Wire Line
-	7750 3250 8050 3250
+	7600 2650 7900 2650
 Wire Wire Line
-	8050 3250 8050 2900
+	7900 2650 7900 2300
 Wire Wire Line
-	8050 2900 8850 2900
+	7900 2300 8700 2300
 Wire Wire Line
-	8850 2900 8850 3350
+	8700 2300 8700 2750
 Wire Wire Line
-	8850 3350 8650 3350
+	8700 2750 8500 2750
 Wire Wire Line
-	8250 3250 8150 3250
+	8100 2650 8000 2650
 Wire Wire Line
-	8150 3250 8150 3350
+	8000 2650 8000 2750
 Wire Wire Line
-	8150 3350 7750 3350
+	8000 2750 7600 2750
 Wire Wire Line
-	7750 3450 8250 3450
+	7600 2850 8100 2850
+$Comp
+L R_Small R27
+U 1 1 5A1868EC
+P 5100 5600
+F 0 "R27" V 5000 5550 50  0000 L CNN
+F 1 "100K" V 5200 5500 50  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 5100 5600 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/cmfind-239942.pdf" H 5100 5600 50  0001 C CNN
+F 4 "CMF50100K00FHEB" H 5100 5600 60  0001 C CNN "Mfg_Part_No"
+F 5 "Metal Film Resistors - Through Hole 1/4watt 100Kohms 1%" H 5100 5600 60  0001 C CNN "Description"
+F 6 "Vishay / Dale" H 5100 5600 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 5100 5600 60  0001 C CNN "Distributor"
+F 8 "71-CMF50100K00FHEB" H 5100 5600 60  0001 C CNN "Distributor Part #"
+F 9 "DIN0204" H 5100 5600 60  0001 C CNN "Package"
+	1    5100 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R14
+U 1 1 5A18745C
+P 3900 2250
+F 0 "R14" V 3800 2200 50  0000 L CNN
+F 1 "10K" V 4000 2200 50  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 3900 2250 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/ccf50-239758.pdf" H 3900 2250 50  0001 C CNN
+F 4 "CCF5010K0FKE36" H 3900 2250 60  0001 C CNN "Mfg_Part_No"
+F 5 "Metal Film Resistors - Through Hole 1/3watts 10Kohms 1%" H 3900 2250 60  0001 C CNN "Description"
+F 6 "Vishay / Dale" H 3900 2250 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 3900 2250 60  0001 C CNN "Distributor"
+F 8 "71-CCF5010K0FKE36" H 3900 2250 60  0001 C CNN "Distributor Part #"
+F 9 "DIN0204" H 3900 2250 60  0001 C CNN "Package"
+	1    3900 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L CP_Small C15
+U 1 1 5A3D51C7
+P 6500 1500
+F 0 "C15" V 6450 1300 50  0000 L CNN
+F 1 "10u" V 6600 1300 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D5_L11_P2.5" H 6500 1500 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/293/e-uvr-1219439.pdf" H 6500 1500 50  0001 C CNN
+F 4 "UVR1V100MDD1TA" H 6500 1500 60  0001 C CNN "Mfg_Part_No"
+F 5 "Aluminium Electrolytic Capacitors - Leaded 35volts 10uF" H 6500 1500 60  0001 C CNN "Description"
+F 6 "Nichicon" H 6500 1500 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 6500 1500 60  0001 C CNN "Distributor"
+F 8 "647-UVR1V100MDD1TA" H 6500 1500 60  0001 C CNN "Distributor Part #"
+F 9 "2-THT" H 6500 1500 60  0001 C CNN "Package"
+	1    6500 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP_Small C21
+U 1 1 5A3D64B2
+P 2350 5200
+F 0 "C21" V 2300 5000 50  0000 L CNN
+F 1 "10u" V 2450 5000 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D5_L11_P2.5" H 2350 5200 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/293/e-uvr-1219439.pdf" H 2350 5200 50  0001 C CNN
+F 4 "UVR1V100MDD1TA" H 2350 5200 60  0001 C CNN "Mfg_Part_No"
+F 5 "Aluminium Electrolytic Capacitors - Leaded 35volts 10uF" H 2350 5200 60  0001 C CNN "Description"
+F 6 "Nichicon" H 2350 5200 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 2350 5200 60  0001 C CNN "Distributor"
+F 8 "647-UVR1V100MDD1TA" H 2350 5200 60  0001 C CNN "Distributor Part #"
+F 9 "2-THT" H 2350 5200 60  0001 C CNN "Package"
+	1    2350 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L CP_Small C22
+U 1 1 5A3D6598
+P 2600 6150
+F 0 "C22" H 2610 6220 50  0000 L CNN
+F 1 "100u" H 2610 6070 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D5_L11_P2.5" H 2600 6150 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/293/e-uvr-1219439.pdf" H 2600 6150 50  0001 C CNN
+F 4 "UVR1A101MDD" H 2600 6150 60  0001 C CNN "Mfg_Part_No"
+F 5 "Aluminium Electrolytic Capacitors - Leaded 10volts 100uF 5x11 20% 2LS" H 2600 6150 60  0001 C CNN "Description"
+F 6 "Nichicon" H 2600 6150 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 2600 6150 60  0001 C CNN "Distributor"
+F 8 "647-UVR1A101MDD" H 2600 6150 60  0001 C CNN "Distributor Part #"
+F 9 "2-THT" H 2600 6150 60  0001 C CNN "Package"
+	1    2600 6150
+	-1   0    0    1   
+$EndComp
+$Comp
+L R_Small R22
+U 1 1 5A3D6CCE
+P 2600 5600
+F 0 "R22" H 2630 5620 50  0000 L CNN
+F 1 "47K" H 2630 5560 50  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 2600 5600 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/sfr16s25-239894.pdf" H 2600 5600 50  0001 C CNN
+F 4 "SFR16S0004702JA500" H 2600 5600 60  0001 C CNN "Mfg_Part_No"
+F 5 "Metal Film Resistors - Through Hole 1/2watt 47Kohms 5%" H 2600 5600 60  0001 C CNN "Description"
+F 6 "Vichay / BC Components" H 2600 5600 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 2600 5600 60  0001 C CNN "Distributor"
+F 8 "594-SFR16S0004702JA5" H 2600 5600 60  0001 C CNN "Distributor Part #"
+F 9 "2-THT" H 2600 5600 60  0001 C CNN "Package"
+	1    2600 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R21
+U 1 1 5A3D71C8
+P 2600 4900
+F 0 "R21" H 2630 4920 50  0000 L CNN
+F 1 "100" H 2630 4860 50  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 2600 4900 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/ccf50-239758.pdf" H 2600 4900 50  0001 C CNN
+F 4 "CCF50100RFKR36" H 2600 4900 60  0001 C CNN "Mfg_Part_No"
+F 5 "Metal Film Resistors - Through Hole 1/3watts 100ohms 1%" H 2600 4900 60  0001 C CNN "Description"
+F 6 "Vishay / Dale" H 2600 4900 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 2600 4900 60  0001 C CNN "Distributor"
+F 8 "71-CCF50-100" H 2600 4900 60  0001 C CNN "Distributor Part #"
+F 9 "DIN0204" H 2600 4900 60  0001 C CNN "Package"
+	1    2600 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R25
+U 1 1 5A3D7A1A
+P 3900 6100
+F 0 "R25" V 3800 6050 50  0000 L CNN
+F 1 "150" V 4000 6000 50  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 3900 6100 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/ccf50-239758.pdf" H 3900 6100 50  0001 C CNN
+F 4 "CCF50150RFKR36" H 3900 6100 60  0001 C CNN "Mfg_Part_No"
+F 5 "Metal Film Resistors - Through Hole 1/3watts 150ohms 1%" H 3900 6100 60  0001 C CNN "Description"
+F 6 "Vishay / Dale" H 3900 6100 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 3900 6100 60  0001 C CNN "Distributor"
+F 8 "71-CCF50-150" H 3900 6100 60  0001 C CNN "Distributor Part #"
+F 9 "2-THT" H 3900 6100 60  0001 C CNN "Package"
+	1    3900 6100
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x02 H21
+U 1 1 5A411A91
+P 1500 5200
+F 0 "H21" H 1500 5300 50  0000 C CNN
+F 1 "Conn_01x02" H 1500 5000 50  0000 C CNN
+F 2 "" H 1500 5200 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/445/6130xx11121-538006.pdf" H 1500 5200 50  0001 C CNN
+F 4 "61300211121" H 1500 5200 60  0001 C CNN "Mfg_Part_No"
+F 5 "Embases et logements de câbles WR-PHD 2.54mm Hdr 2P Single RA Gold" H 1500 5200 60  0001 C CNN "Description"
+F 6 "Wurth Electronics" H 1500 5200 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 1500 5200 60  0001 C CNN "Distributor"
+F 8 "710-61300211121" H 1500 5200 60  0001 C CNN "Distributor Part #"
+F 9 "2-THT" H 1500 5200 60  0001 C CNN "Package"
+	1    1500 5200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Conn_01x02 H12
+U 1 1 5A411F2B
+P 7750 1500
+F 0 "H12" H 7750 1600 50  0000 C CNN
+F 1 "Conn_01x02" H 7750 1300 50  0000 C CNN
+F 2 "" H 7750 1500 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/445/6130xx11121-538006.pdf" H 7750 1500 50  0001 C CNN
+F 4 "61300211121" H 7750 1500 60  0001 C CNN "Mfg_Part_No"
+F 5 "Embases et logements de câbles WR-PHD 2.54mm Hdr 2P Single RA Gold" H 7750 1500 60  0001 C CNN "Description"
+F 6 "Wurth Electronics" H 7750 1500 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 7750 1500 60  0001 C CNN "Distributor"
+F 8 "710-61300211121" H 7750 1500 60  0001 C CNN "Distributor Part #"
+F 9 "2-THT" H 7750 1500 60  0001 C CNN "Package"
+	1    7750 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x02 H22
+U 1 1 5A4123D4
+P 7750 4850
+F 0 "H22" H 7750 4950 50  0000 C CNN
+F 1 "Conn_01x02" H 7750 4650 50  0000 C CNN
+F 2 "" H 7750 4850 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/445/6130xx11121-538006.pdf" H 7750 4850 50  0001 C CNN
+F 4 "61300211121" H 7750 4850 60  0001 C CNN "Mfg_Part_No"
+F 5 "Embases et logements de câbles WR-PHD 2.54mm Hdr 2P Single RA Gold" H 7750 4850 60  0001 C CNN "Description"
+F 6 "Wurth Electronics" H 7750 4850 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 7750 4850 60  0001 C CNN "Distributor"
+F 8 "710-61300211121" H 7750 4850 60  0001 C CNN "Distributor Part #"
+F 9 "2-THT" H 7750 4850 60  0001 C CNN "Package"
+	1    7750 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R23
+U 1 1 5A41314B
+P 2600 6650
+F 0 "R23" H 2630 6670 50  0000 L CNN
+F 1 "470" H 2630 6610 50  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 2600 6650 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/sfr16s25-239894.pdf" H 2600 6650 50  0001 C CNN
+F 4 "SFR16S0004700JA500" H 2600 6650 60  0001 C CNN "Mfg_Part_No"
+F 5 "Metal Film Resistors - Through Hole 1/2watt 470ohms 5%" H 2600 6650 60  0001 C CNN "Description"
+F 6 "Vishay / BC Components" H 2600 6650 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 2600 6650 60  0001 C CNN "Distributor"
+F 8 "594-SFR16S0004700JA5" H 2600 6650 60  0001 C CNN "Distributor Part #"
+F 9 "2-THT" H 2600 6650 60  0001 C CNN "Package"
+	1    2600 6650
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	1000 800  9000 800 
+Wire Notes Line
+	9000 800  9000 3650
+Wire Notes Line
+	9000 3650 1000 3650
+Wire Notes Line
+	1000 3650 1000 800 
+Text Notes 1100 950  0    60   ~ 0
+Right channel
+Wire Notes Line
+	1000 4000 9000 4000
+Wire Notes Line
+	9000 4000 9000 7050
+Wire Notes Line
+	9000 7050 1000 7050
+Wire Notes Line
+	1000 7050 1000 4000
+Text Notes 1100 4150 0    60   ~ 0
+Left channel
+$Comp
+L R_Small R28
+U 1 1 5A416123
+P 4100 6800
+F 0 "R28" V 4000 6750 50  0000 L CNN
+F 1 "1K" V 4200 6700 50  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 4100 6800 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/ccf50-239758.pdf" H 4100 6800 50  0001 C CNN
+F 4 "CCF501K00FKE36" H 4100 6800 60  0001 C CNN "Mfg_Part_No"
+F 5 "Metal Film Resistors - Through Hole 1/3watts 1Kohms 1%" H 4100 6800 60  0001 C CNN "Description"
+F 6 "Vishay / Dale" H 4100 6800 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 4100 6800 60  0001 C CNN "Distributor"
+F 8 "71-CCF501K00FKE36" H 4100 6800 60  0001 C CNN "Distributor Part #"
+F 9 "2-THT" H 4100 6800 60  0001 C CNN "Package"
+	1    4100 6800
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R29
+U 1 1 5A416E02
+P 6800 5050
+F 0 "R29" V 6700 5000 50  0000 L CNN
+F 1 "47K" V 6900 5000 50  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 6800 5050 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/sfr16s25-239894.pdf" H 6800 5050 50  0001 C CNN
+F 4 "SFR16S0004702JA500" H 6800 5050 60  0001 C CNN "Mfg_Part_No"
+F 5 "Metal Film Resistors - Through Hole 1/2watt 47Kohms 5%" H 6800 5050 60  0001 C CNN "Description"
+F 6 "Vishay / BC Components" H 6800 5050 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 6800 5050 60  0001 C CNN "Distributor"
+F 8 "594-SFR16S0004702JA5" H 6800 5050 60  0001 C CNN "Distributor Part #"
+F 9 "2-THT" H 6800 5050 60  0001 C CNN "Package"
+	1    6800 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R19
+U 1 1 5A41764B
+P 6800 1700
+F 0 "R19" V 6700 1650 50  0000 L CNN
+F 1 "47K" V 6900 1650 50  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 6800 1700 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/sfr16s25-239894.pdf" H 6800 1700 50  0001 C CNN
+F 4 "SFR16S0004702JA500" H 6800 1700 60  0001 C CNN "Mfg_Part_No"
+F 5 "Metal Film Resistors - Through Hole 1/2watt 47Kohms 5%" H 6800 1700 60  0001 C CNN "Description"
+F 6 "Vishay / BC Components" H 6800 1700 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 6800 1700 60  0001 C CNN "Distributor"
+F 8 "594-SFR16S0004702JA5" H 6800 1700 60  0001 C CNN "Distributor Part #"
+F 9 "2-THT" H 6800 1700 60  0001 C CNN "Package"
+	1    6800 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C23
+U 1 1 5A417BBB
+P 4350 6100
+F 0 "C23" V 4250 5950 50  0000 L CNN
+F 1 "8n2" V 4450 6100 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 4350 6100 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/212/F3294_MMK-1101858.pdf" H 4350 6100 50  0001 C CNN
+F 4 "MMK5822J50J01L4BULK" H 4350 6100 60  0001 C CNN "Mfg_Part_No"
+F 5 "Film Capacitors 50volts 8200pF 5% LS 5mm" H 4350 6100 60  0001 C CNN "Description"
+F 6 "KEMET" H 4350 6100 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 4350 6100 60  0001 C CNN "Distributor"
+F 8 "80-MMK5822J50J01L4" H 4350 6100 60  0001 C CNN "Distributor Part #"
+F 9 "2-THT" H 4350 6100 60  0001 C CNN "Package"
+	1    4350 6100
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C24
+U 1 1 5A417FF6
+P 5100 6100
+F 0 "C24" V 5000 5950 50  0000 L CNN
+F 1 "22n" V 5200 6100 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 5100 6100 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/212/KEM_F3101_R82-1103738.pdf" H 5100 6100 50  0001 C CNN
+F 4 "R82EC2220AA50J" H 5100 6100 60  0001 C CNN "Mfg_Part_No"
+F 5 "Film Capacitors 100volts 0.022uF 5%" H 5100 6100 60  0001 C CNN "Description"
+F 6 "KEMET" H 5100 6100 60  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 5100 6100 60  0001 C CNN "Distributor"
+F 8 "80-R82EC2220AA50J" H 5100 6100 60  0001 C CNN "Distributor Part #"
+F 9 "2-THT" H 5100 6100 60  0001 C CNN "Package"
+	1    5100 6100
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
