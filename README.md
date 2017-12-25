@@ -12,6 +12,6 @@ Some of the part are not present on the schematic:
 
 
 
-The BoM for this schematics can be found [here](https://octopart.com/bom-tool/)
+The BoM for this schematics can be found [here](https://octopart.com/bom-tool/uFlDQjD4)
 
-A Mouser cart is also available [here](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=)
+A Mouser cart is also available [here](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=9f5cd040c6)
